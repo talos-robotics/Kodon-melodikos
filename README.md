@@ -121,11 +121,20 @@
 ___
 
 
-# :video_camera: **Ενότητα** :one: :<br>
+# 📚: **Ενότητα** :one: :<br>
+
+# Κατεβάζω τα δωρεάν βιβλία
+
+||||
+|---|---|---|
+|<a href="https://www.dropbox.com/scl/fi/yfnnken1xeiuxz0s155k9/H-Python.pdf?rlkey=kqmkxf00x249gk9btfgd6p0af&dl=1"><img src="https://www.openbook.gr/wp-content/uploads/2023/10/h-python-me-apla-logia.jpg" style="width:20%;"></a>|<a href="https://bit.ly/39ec4si"><img src="https://www.openbook.gr/wp-content/uploads/2021/01/pythonies.jpg" style="width:20%;">|<a href="https://bit.ly/2r8QY75"><img src="https://www.openbook.gr/wp-content/uploads/2016/11/eisagwgh-ston-antikeimenostrafh-programmatismo-me-python.jpg" style="width:20%;">|
+|<a href="https://bit.ly/2qvObCW"><img src="https://www.openbook.gr/wp-content/uploads/2016/11/eisagwgh-ston-programmatismo-me-arwgo-thn-glwssa-python.jpg" style="width:20%;"></a>|<a href="https://bit.ly/2rqwMMm"><img src="https://www.openbook.gr/wp-content/uploads/2017/06/programmatismos-me-python-sto-raspberry-pi-1.jpg" style="width:20%;">|<a href="https://bit.ly/2qMcjlD"><img src="https://www.openbook.gr/wp-content/uploads/2017/05/paixnidia-se-python-kai-pygame.jpg" style="width:20%;">|
+|<a href="https://bit.ly/2kHs5Qa"><img src="https://www.openbook.gr/wp-content/uploads/2017/10/odigos-python-mesw-paradeigmatwn.jpg" style="width:20%;"></a>|<a href="https://bit.ly/2zXQIzF"><img src="https://www.openbook.gr/wp-content/uploads/2018/07/eisagwgi-ston-programmatismo-me-tin-python.jpg" style="width:20%;">||
+|||
 
 ___
 
-# :books: **Ενότητα** :two: :<br>
+# ⚛️: **Ενότητα** :two: :<br>
 
   <div align="left">
 
