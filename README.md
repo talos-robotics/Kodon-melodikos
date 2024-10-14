@@ -8,14 +8,14 @@
 # Κώδων ο μελωδικος
   
 ## <u>Το πρόβλημα</u>
+Πόσες φορές δεν έχουμε σκεφτεί μέσα στο σχολικό περιβάλλον, που είναι ένας κλειστός δημόσιος χώρος, να είχαμε ένα κουδούνι το οποίο θα ήταν ευχάριστο και όχι απρόσωπο και βαρετό. 
 
-Ένα μεγάλο πρόβλημα που ταλανίζει τις σχολικές μονάδες είναι η σωστή διαχείριση του μαθητικού δυναμικού. Πόσες φορές μας έχει τύχει να αναζητούμε έναν μαθητή, και να μην είμαστε σίγουροι αν τον είδαμε κατά την πρωινή προσέλευση ή αν μέσα σε όλο το πλήθος κατά την αποχώρησή το είδαμε να αποχωρεί. Πόσες φορές ο εφημερεύων εκπαιδευτικός δεν έρχεται σε δύσκολη θέση αφού δεν γνωρίζει ποιοί μαθητές αποχωρούν ασυνόδευτοι.
 
 
 
 ## <u>Η λύση</u>
+Το project αναφέρεται στη δημιουργία ενός συστήματος σχολικού κουδουνιού που θα είναι πλήρως λειτουργικό, προγραμματιζόμενο και θα αναπαράγει μουσική κατά τη διάρκεια των διαλειμμάτων. Θα μπορεί να αντικαταστήσει το κουδούνι που υπάρχει αυτή τη στιγμή στα σχολεία. Το σύστημα θα υποστηρίζεται από φορητό υπολογιστή παλάμης raspberry pi ή θα μπορεί να εγκατασταθεί σε ένα υπολογιστή με λειτουργικό σύστημα windows και Linux.
 
-Το project αναφέρεται στη δημιουργία ενός φορητού συστήματος ελέγχου και καταγραφής της προσέλευσης και αποχώρησης του μαθητικού δυναμικού, καθώς επίσης και της βοηθητικής λειτουργίας επισήμανσης για τους μαθητές που φεύγουν ασυνόδευτοι. Το σύστημα θα υποστηρίζεται από φορητό υπολογιστή παλάμης raspberry pi και θα χρησιμοποιεί τεχνολογία Rfid.
 
 Θα ασχοληθούμε με,
 
@@ -23,7 +23,6 @@
 - Γλώσσα προγραμματισμού Python
 - Κατασκευή GUI με τη χρήση Tkinter
 - Κατασκευή υπολογιστή παλάμης με τη χρήση raspberry pi για την ενσωμάτωση του λογισμικού
-- Χρήση του πρωτοκόλλου espnow
 - Linux distributions σαν βασικό περιβάλλον εργασίας και δημιουργίας
 - 3d εκτυπώσεις για τη φιλοξενία του εξοπλισμού
 
@@ -103,16 +102,15 @@
 
 |Είδος|Ποσότητα|Τιμή Μονάδας|Σύνολο|Περιγραφή|
 |---|---|---|---|---|
-|<img src="https://nettop.gr/images/stories/virtuemart/product/RaspberryPi_5_8GB_Low_budget_Kit__1704789922_406.jpg" style="width:30%;"></BR>Raspberry Pi 5 8GB Low budget Kit|1|124,90|124,90|https://nettop.gr/index.php/raspberry-pi/kit-plaketes/raspberry-pi-5-8gb-low-budget-kit-2595.html
+|<img src="https://www.hellasdigital.gr/images/detailed/28/RaspberryPi_4_Model_B_Low_budget_Kit.jpg" style="width:30%;"></BR>Raspberry Pi 4 Model B 4GB Low budget Kit - (Pi4LB4GB)|1|103|103|https://www.hellasdigital.gr/go-create/raspberry-and-accessories/raspberry-pi-4-and-accessories/raspberry-pi-4-model-b-4gb-low-budget-kit-pi4lb4gb/?sl=en|
+|<img src="https://grobotronics.com/images/thumbnails/350/350/detailed/131/screenshot_05-24-2023_13.32.27_grobo.jpg" style="width:30%;"></BR>Pi Display 10.1" HDMI 1280x800 IPS Capacitive Touchscreen USB|1|99,90|99,90|https://grobotronics.com/pi-display-10.1-hdmi-1280x800-ips-capacitive-touchscreen-usb-el.html|
 |<img src="https://grobotronics.com/images/thumbnails/350/350/detailed/113/raspberry-pi-zero-wireless_1024x1024_grobo.jpg" style="width:30%;"></BR>Raspberry Pi Zero 2 W with Header|2|21,50|43|https://nettop.gr/index.php/raspberry-pi/raspberry-pi-zero/raspberry-pi-zero-kits/raspberry-pi-zero-2-w-with-header.html|
-|<img src="https://nettop.gr/images/stories/virtuemart/product/MFRC-522-RFID-Module-RC522-Reader-Kits-S50-13-56mhz-6cm-with-Tags-RF-IC-Card.jpg" style="width:30%;"></BR>Arduino RC522 RFID module 1set with white and blue card|2|5|10|https://nettop.gr/index.php/arduino/prostheta/arduino-rc522-rfid-module-1set-with-white-and-blue-card.html|
-|<img src="https://nettop.gr/images/stories/virtuemart/product/nano.jpg" style="width:30%;"></BR>Nano V3.0 CH340G Chip|2|6|12|https://nettop.gr/index.php/arduino/arduino-compatible-boards/nano-v3-0-ch340-chip.html|
-|<img src="https://nettop.gr/images/stories/virtuemart/product/1200B515_1__1665512529_687.png" style="width:30%;"></BR>Arduino NANO IO Shield V3.0 Expansion Board|2|4,5|9|https://nettop.gr/index.php/arduino/aksesouar/arduino-nano-io-shield-v3-0-expansion-board.html|
-|<img src="https://nettop.gr/images/stories/virtuemart/product/nfc_122u.jpg" style="width:30%;"></BR>NFC ACR122U RFID Contactless Smart Reader Writer/USB|1|45|45|https://nettop.gr/index.php/eksartimata/aisthitires/touch/nfc-acr122u-rfid-contactless-smart-reader-writer-usb.html|
 |<img src="https://nettop.gr/images/stories/virtuemart/product/32GB.jpg" style="width:30%;"></BR>Official Raspberry Pi Micro SD Card 32GB A2 Class unprogrammed|2|6,9|13,8|https://nettop.gr/index.php/raspberry-pi/sd-carts/official-raspberry-pi-32-gb.html|
-|<img src="https://nettop.gr/images/stories/virtuemart/product/NS3607_2.png" style="width:30%;"></BR>10 kinds Values 180PCS Tactile Push Button Switch Assortment|1|5,5|5,5|https://nettop.gr/index.php/eksartimata/diakoptes/10-kinds-values-180pcs-tactile-push-button-switch-assortment.html|
+|<img src="https://grobotronics.com/images/thumbnails/350/350/detailed/6/904db0f03fc9bb189679d66db40a29f4.image.530x397_-_%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_grobo.jpg" style="width:30%;"></BR>Προσαρμογέας HDMI σε VGA - Μαύρο|2|6.40|12.80|https://grobotronics.com/hdmi-to-vga-adapter.html|
+|<img src="https://grobotronics.com/images/thumbnails/350/350/detailed/114/561764_1_grobo.jpg" style="width:30%;"></BR>Καλώδιο USB A Αρσενικό σε C Αρσενικό - 0.1m Μαύρο|2|3.40|6.80|https://grobotronics.com/usb-cable-a-male-to-male-c-0.1m-black.html|
+|<img src="https://grobotronics.com/images/thumbnails/350/350/detailed/114/s-l1600_grobo_2i18-t6.jpg" style="width:30%;"></BR>Καλώδιο HDMI Θηλυκό σε Micro HDMI 0.15m Μαύρο|2|3.20|6.40|https://grobotronics.com/kalodio-hdmi-thilyko-se-micro-hdmi-0.15m-mayro.html|
 ||||||
-|||Σύνολο|188.4||
+|||Σύνολο|285.74||
 |||||| 
 
   
@@ -131,63 +129,6 @@ ___
 
   <div align="left">
 
-
-### Βάσεις Δεδομένων
-
-<a > <img src="https://img.freepik.com/free-vector/database-floating-squares_78370-6689.jpg" style="width:10%;"></a>
-
-1. Τι είναι η Βάση Δεδομένων;
-Φαντάσου ότι έχεις ένα μεγάλο κουτί όπου φυλάς πολλές κάρτες με πληροφορίες, όπως τα ονόματα των φίλων σου, τα τηλέφωνά τους και τα αγαπημένα τους χρώματα. Η βάση δεδομένων είναι σαν αυτό το κουτί! Είναι ένας τρόπος να κρατάμε οργανωμένα πολλές πληροφορίες σε ένα μέρος, για να μπορούμε να τις βρίσκουμε εύκολα όταν τις χρειαζόμαστε.
-
-2. Τι είναι οι Εγγραφές;
-Τώρα, ας πούμε ότι κάθε φίλος σου έχει τη δική του κάρτα με πληροφορίες. Αυτή η κάρτα είναι μια εγγραφή στη βάση δεδομένων. Μια εγγραφή περιέχει όλες τις πληροφορίες για ένα μόνο πράγμα ή πρόσωπο. Για παράδειγμα, για τον κάθε φίλο, η εγγραφή μπορεί να έχει:
-
-το όνομά του,
-το τηλέφωνό του,
-το αγαπημένο του χρώμα.
-
-Κάθε φίλος είναι μια ξεχωριστή εγγραφή, και μαζί αποτελούν μια ομαδοποίηση στη βάση δεδομένων.
-
-3. Τι Λειτουργίες Μπορούμε να Κάνουμε;
-Με μια βάση δεδομένων, μπορούμε να κάνουμε πολλές χρήσιμες λειτουργίες, όπως:
-
-Να προσθέσουμε νέες εγγραφές (όταν κάνεις νέους φίλους και θέλεις να γράψεις τα στοιχεία τους).
-Να ενημερώσουμε υπάρχουσες εγγραφές (όταν κάποιος φίλος αλλάξει τηλέφωνο, το διορθώνουμε).
-Να διαγράψουμε εγγραφές (αν, για παράδειγμα, δε θέλεις πια να κρατάς πληροφορίες για κάποιον).
-Να αναζητήσουμε εγγραφές (αν θέλεις να βρεις γρήγορα το τηλέφωνο ενός φίλου).
-Με απλά λόγια, η βάση δεδομένων είναι ένα «μαγικό κουτί» που μας βοηθά να αποθηκεύουμε και να διαχειριζόμαστε πληροφορίες εύκολα!
-
-
-### Τι είναι η MySQL;
-
-<a > <img src="https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png" style="width:10%;"></a>
-
-Φαντάσου ότι η MySQL είναι σαν ένα πολύ έξυπνο πρόγραμμα που λειτουργεί σαν το κουτί που είπαμε πριν, όπου μπορούμε να αποθηκεύουμε πολλές πληροφορίες. Η MySQL είναι μια βάση δεδομένων που μας βοηθάει να αποθηκεύουμε, να οργανώνουμε και να βρίσκουμε πληροφορίες γρήγορα.
-
-Μπορεί να κρατήσει πληροφορίες για πολλά πράγματα, όπως:
-
-τα ονόματα και τις διευθύνσεις ανθρώπων,
-τους βαθμούς σε ένα σχολείο,
-τα προϊόντα σε ένα κατάστημα.
-Είναι φτιαγμένη για να αποθηκεύει πολλές πληροφορίες με ασφάλεια και να τις βρίσκει γρήγορα όταν τις χρειαστούμε.
-
-### Τι είναι το phpMyAdmin;
-
-<a > <img src="https://www.freeiconspng.com/uploads/phpmyadmin-logo-png-1.png" style="width:10%;"></a>
-
-Το phpMyAdmin είναι σαν ένα εύκολο εργαλείο που μας βοηθά να χρησιμοποιούμε τη MySQL. Σκέψου ότι είναι σαν ένα απλό και όμορφο περιβάλλον (όπως ένα πρόγραμμα στον υπολογιστή) όπου μπορούμε να δούμε και να διαχειριστούμε τις πληροφορίες στη βάση δεδομένων MySQL.
-
-Με το phpMyAdmin μπορούμε:
-
-Να δούμε τις εγγραφές που έχουμε βάλει στη MySQL.
-Να προσθέσουμε καινούριες πληροφορίες.
-Να διαγράψουμε ή να διορθώσουμε υπάρχουσες πληροφορίες.
-Είναι σαν να έχεις ένα τηλεκοντρόλ για τη MySQL, που κάνει τη δουλειά της πιο εύκολη και κατανοητή, ειδικά για αρχάριους!
-
-Με λίγα λόγια:
-
-Η MySQL είναι η βάση δεδομένων που κρατάει τις πληροφορίες.
-Το phpMyAdmin είναι το εργαλείο που μας επιτρέπει να δούμε και να διαχειριστούμε αυτές τις πληροφορίες πιο εύκολα!
 
 ### Η γλώσσα προγραμματισμού PYTHON
 
