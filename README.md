@@ -1,10 +1,11 @@
-# Κώδων ο μελωδικος
 
-<img src="https://github.com/talos-robotics/The-school-eyes-project/blob/main/images/school eyes.png" width="500" height="500">
+<img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/kodon.png" width="500" height="500">
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cc_by-nc_icon.svg/1920px-Cc_by-nc_icon.svg.png" alt="" width="150" height="50"/>
 
 <div>
+
+# Κώδων ο μελωδικος
   
 ## <u>Το πρόβλημα</u>
 
