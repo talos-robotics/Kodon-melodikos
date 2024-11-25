@@ -108,14 +108,14 @@
 |Είδος|Ποσότητα|Τιμή Μονάδας|Σύνολο|Περιγραφή|
 |---|---|---|---|---|
 |<img src="https://www.hellasdigital.gr/images/detailed/28/RaspberryPi_4_Model_B_Low_budget_Kit.jpg" style="width:30%;"></BR>Raspberry Pi 4 Model B 4GB Low budget Kit - (Pi4LB4GB)|1|103|103|https://www.hellasdigital.gr/go-create/raspberry-and-accessories/raspberry-pi-4-and-accessories/raspberry-pi-4-model-b-4gb-low-budget-kit-pi4lb4gb/?sl=en|
-|<img src="https://grobotronics.com/images/thumbnails/350/350/detailed/131/screenshot_05-24-2023_13.32.27_grobo.jpg" style="width:30%;"></BR>Pi Display 10.1" HDMI 1280x800 IPS Capacitive Touchscreen USB|1|99,90|99,90|https://grobotronics.com/pi-display-10.1-hdmi-1280x800-ips-capacitive-touchscreen-usb-el.html|
-|<img src="https://grobotronics.com/images/thumbnails/350/350/detailed/113/raspberry-pi-zero-wireless_1024x1024_grobo.jpg" style="width:30%;"></BR>Raspberry Pi Zero 2 W with Header|2|21,50|43|https://nettop.gr/index.php/raspberry-pi/raspberry-pi-zero/raspberry-pi-zero-kits/raspberry-pi-zero-2-w-with-header.html|
+|<img src="https://nettop.gr/images/stories/virtuemart/product/Touch-Display-2.jpg" style="width:30%;"></BR>Raspberry Pi Touch Display 2|1|76,90|76,90|https://nettop.gr/index.php/en/raspberry-pi-en/raspberry-pi-touch-display-2.html|
+|<img src="https://nettop.gr/images/stories/virtuemart/product/ZERO-2WH-HERO.jpg" style="width:30%;"></BR>Raspberry Pi Zero 2 W with Header|2|21,50|43|https://nettop.gr/index.php/raspberry-pi/raspberry-pi-zero/raspberry-pi-zero-kits/raspberry-pi-zero-2-w-with-header.html|
 |<img src="https://nettop.gr/images/stories/virtuemart/product/32GB.jpg" style="width:30%;"></BR>Official Raspberry Pi Micro SD Card 32GB A2 Class unprogrammed|2|6,9|13,8|https://nettop.gr/index.php/raspberry-pi/sd-carts/official-raspberry-pi-32-gb.html|
-|<img src="https://grobotronics.com/images/thumbnails/350/350/detailed/6/904db0f03fc9bb189679d66db40a29f4.image.530x397_-_%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_grobo.jpg" style="width:30%;"></BR>Προσαρμογέας HDMI σε VGA - Μαύρο|2|6.40|12.80|https://grobotronics.com/hdmi-to-vga-adapter.html|
-|<img src="https://grobotronics.com/images/thumbnails/350/350/detailed/114/561764_1_grobo.jpg" style="width:30%;"></BR>Καλώδιο USB A Αρσενικό σε C Αρσενικό - 0.1m Μαύρο|2|3.40|6.80|https://grobotronics.com/usb-cable-a-male-to-male-c-0.1m-black.html|
-|<img src="https://grobotronics.com/images/thumbnails/350/350/detailed/114/s-l1600_grobo_2i18-t6.jpg" style="width:30%;"></BR>Καλώδιο HDMI Θηλυκό σε Micro HDMI 0.15m Μαύρο|2|3.20|6.40|https://grobotronics.com/kalodio-hdmi-thilyko-se-micro-hdmi-0.15m-mayro.html|
+|<img src="https://grobotronics.com/images/thumbnails/570/570/detailed/6/904db0f03fc9bb189679d66db40a29f4.image.530x397_-_%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF_grobo.jpg" style="width:30%;"></BR>Προσαρμογέας HDMI σε VGA - Μαύρο|2|6.40|12.80|https://grobotronics.com/hdmi-to-vga-adapter.html|
+|<img src="https://grobotronics.com/images/thumbnails/570/570/detailed/114/561764_1_grobo.jpg" style="width:30%;"></BR>Καλώδιο USB A Αρσενικό σε C Αρσενικό - 0.1m Μαύρο|2|3.40|6.80|https://grobotronics.com/usb-cable-a-male-to-male-c-0.1m-black.html|
+|<img src="https://grobotronics.com/images/thumbnails/570/570/detailed/114/s-l1600_grobo_2i18-t6.jpg" style="width:30%;"></BR>Καλώδιο HDMI Θηλυκό σε Micro HDMI 0.15m Μαύρο|2|3.20|6.40|https://grobotronics.com/kalodio-hdmi-thilyko-se-micro-hdmi-0.15m-mayro.html|
 ||||||
-|||Σύνολο|285.74||
+|||Σύνολο|262.74||
 |||||| 
 
   
