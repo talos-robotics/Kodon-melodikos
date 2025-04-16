@@ -72,34 +72,30 @@
 
 ## Φάση προετοιμασίας
 
-<!--- Οι μαθητές θα πρέπει να:  
+Οι μαθητές θα πρέπει να:  
 - Διερευνήσουν στο διαδίκτυο σχετικά με το θέμα.
-- Να αναζητήσουν τις ανάγκες που μπορεί να έχουν οι άνθρωποι με τύφλωση.
-- Να αναζητήσουν τη μέθοδο γραφής breille και να ανακαλύψουν τον κώδικά της.
+- Να αναζητήσουν και να αναλύσουν τις απαιτήσεις.
 - Συντάξουν ένα έντυπο όπου θα περιγράφουν τις προδιαγραφές του project.
 - Να αναζητήσουν στο διαδίκτυο πληροφορίες για τον τρόπο λύσης και τις επιλογές του υλικού.  
 
 ## Φάση σχεδιασμού
 
 Οι μαθητές θα πρέπει να:
-- Να αναζητήσουν στο διαδίκτυο πληροφορίες για τη συνδεσμολογία του υλικού με το Arduino.
-- Να αναζητήσουν στο διαδίκτυο πληροφορίες για τις προδιαγραφές των αισθητήρων.
-- Να δημιουργήσουν στο Fritzing τις παραπάνω συνδεσμολογίες.  
+- Να αναζητήσουν στο διαδίκτυο πληροφορίες για τη συνδεσμολογία του υλικού.
+- Να αναζητήσουν στο διαδίκτυο πληροφορίες για τις προδιαγραφές.
 
 ## Φάση υλοποίησης
 
 Οι μαθητές θα πρέπει να:  
 - Δημιουργήσουν τις φυσικές συνδέσεις των υλικών τους.
-- Να προγραμματίσουν το Arduino χρησιμοποιώντας το περιβάλλον Arduino IDE έτσι ώστε να μετατρέπει κάθε γράμμα σε breille σε γράμμα της αλφαβήτου και να το στέλνουν μέσω usb σειριακά στον υπολογιστή.
-- Να δημιουργήσουν πρόγραμμα με τη χρήση της γλώσσας python που θα λαμβάνει το γράμμα που εχει αποσταλεί σειριακά
-- Να δημιουργήσουν πρόγραμμα με τη χρήση του python interface έτσι ώστε να δημιουργήσουν ενα GUI καλάληλα κατασκευασμένο για χρήση απο τυφλά άτομα.
-- Να ενσωματώσουν τεχνολογία τεχνιτής νοημοσύνης TTS έτσι ώστε να γίνεται η λειτουργία του προγράμματος ακουστικά. Για παράδειγμα σε περίπρωση που το ποντίκι περάσει πάνω απο κάποιο κουμπί να γίνεται ανάγνωση της επιγραφής του.
-
+- Να εγκαταστήσουν τις απαραίτητες βιβλιοθήκες.
+- Να δημιουργήσουν πρόγραμμα με τη χρήση της γλώσσας python που θα δημιουργεί τον κορμό του βασικού προγράμματος.
+- Να δημιουργήσουν πρόγραμμα με τη χρήση του python interface έτσι ώστε να δημιουργήσουν ενα GUI καλάληλα κατασκευασμένο.
 
 ## Φάση Δοκιμών
 
 Οι μαθητές θα πρέπει να:  
-- Δοκιμάσουν τον εξοπλισμό τους και να επιβεβαιώσουν τη σωστή λειτουργία του.  --->
+- Δοκιμάσουν τον εξοπλισμό τους και να επιβεβαιώσουν τη σωστή λειτουργία του. 
   
 
 
@@ -209,19 +205,14 @@ ___
 
 ## Περιγραφή λειτουργίας συστήματος
 
-Δημιουργήσαμε μια εφαρμογή γραμμένη σε Python που χρησιμοποιεί τη βιβλιοθήκη Tkinter για τη δημιουργία γραφικού περιβάλλοντος χρήστη (GUI). Το πρόγραμμα είναι σχεδιασμένο για τη διαχείριση ενός συστήματος κουδουνιών σε σχολείο, με δυνατότητα αναπαραγωγής ήχων/τραγουδιών μέσω της βιβλιοθήκης Pygame. 
+Δημιουργήσαμε μια εφαρμογή γραμμένη σε Python που χρησιμοποιεί τη βιβλιοθήκη Tkinter για τη δημιουργία γραφικού περιβάλλοντος χρήστη (GUI). Το πρόγραμμα είναι σχεδιασμένο για τη διαχείριση ενός συστήματος κουδουνιών σε σχολείο, με δυνατότητα αναπαραγωγής ήχων/τραγουδιών μέσω της βιβλιοθήκης Vlc. 
 
 Το γραφικό περιβάλλον επιτρέπει στον χρήστη:
 - Να ορίσει χρονικά διαστήματα κουδουνιών για διαλείμματα
-- Να φορτώσει φακέλους με τραγούδια ή ήχους
+- Να φορτώσει φάκελο με τραγούδια ή ήχους
 - Να προγραμματίσει την αναπαραγωγή τους αυτόματα την ώρα που έχει οριστεί.
 
-Τα κουδούνια και οι ήχοι μπορούν να ρυθμιστούν
-- Να ξεκινήσουν
-- Να σταματήσουν
-- Να τεθούν σε παύση
-
-Ενώ οι ενέργειες εκτελούνται με τη χρήση πολυνηματικής επεξεργασίας (threading).
+Οι ενέργειες εκτελούνται με τη χρήση πολυνηματικής επεξεργασίας (threading).
 
 Το πρόγραμμα μπορεί να λειτουργεί σε desktop περιβάλλον με λειτουργικά συστήματα που υποστηρίζουν Python, και λόγω της χρήσης της βιβλιοθήλης Tkinter , μπορεί να ενσωματωθεί και σε περιβάλλοντα με οθόνη αφής, όπως ένα Raspberry Pi. 
 Αυτό καθιστά την εφαρμογή ιδανική για σύνδεση στο κουδούνι του σχολείου, επιτρέποντας τον έλεγχο της αναπαραγωγής των κουδουνιών μέσω μιας εύχρηστης οθόνης αφής.
@@ -288,13 +279,6 @@ Pygame για την αναπαραγωγή ήχου και τη βιβλιοθ�
 Το διάγραμμα υπογραμμίζει τις βασικές λειτουργίες, αλληλεπιδράσεις και τη ροή ελέγχου μέσα στην εφαρμογή.    
 
 
-
-## Κώδικας για το Arduino
-
-```C
-
-
-```
 ___
 
 -->
@@ -397,379 +381,192 @@ ___
  ## Κώδικας Python
 
 ```Python
-#Εισαγωγή βιβλιοθηκών από την python 
-from tkinter import *
-from tkinter import ttk
-from tkinter import scrolledtext
-import serial
-import serial.tools.list_ports as ports
-import threading
-import gtts
-import pygame
-from PIL import Image, ImageTk
+import tkinter as tk  # Βιβλιοθήκη για γραφικά (GUI)
+from tkinter import messagebox  # Μηνύματα διαλόγου (π.χ. ειδοποιήσεις)
+import os  # Διαχείριση αρχείων και φακέλων
+import time  # Εργασία με ημερομηνίες και ώρες
+import threading  # Για να τρέχουν πράγματα παράλληλα (χωρίς να κολλάει το GUI)
+import vlc  # Βιβλιοθήκη για αναπαραγωγή ήχου/βίντεο με το VLC
+from PIL import ImageTk, Image  # Για εμφάνιση εικόνας στο Tkinter
 
-#Δημιουργία μεταβλητής exitthread που παίρνει τιμές 0-1, έτσι ώστε όταν πατήσουμε το
-#κουμπί έξοδος να πάρει τιμή 1 και να μπορέσει να σταματήσει το νήμα που έχουμε
-#δημιουργήσει παρακάτω. 
-global exitthread
+# ----------- ΡΥΘΜΙΣΕΙΣ -----------
+MUSIC_FOLDER = "music"  # Φάκελος που έχει τη μουσική
+SETTINGS_FILE = "bell_times.txt"  # Αρχείο που αποθηκεύονται οι ώρες κουδουνιού
 
-#Αρχικοποίηση της μεταβλητής exit thread σε 0 
-exitthread=0
+# ----------- GLOBALS -----------
+current_song_index = 0  # Δείχνει ποιο τραγούδι παίζει τώρα
+music_files = []  # Λίστα με τα ονόματα αρχείων μουσικής
+bell_times = []  # Λίστα με τις ώρες που χτυπάει κουδούνι
+playing = False  # Αν παίζει μουσική ή όχι
+player = None  # Αντικείμενο vlc για την αναπαραγωγή
 
-#Αρχικοποίηση της μεθόδου mixer
-pygame.mixer.init()
+# ----------- ΛΕΙΤΟΥΡΓΙΕΣ -----------
 
-#Άνοιγμα σειριακής θύρας 
-try:
-    SerialPortObj = serial.Serial('/dev/ttyACM0')
-except:
-    pass
+def load_music_files():  # Διαβάζει τα αρχεία μουσικής από το φάκελο
+    return [f for f in os.listdir(MUSIC_FOLDER) if f.endswith(('.mp3', '.wav'))]  # Επιστρέφει μόνο mp3/wav
 
-#Συνάρτηση για την εκφώνηση του αρχείου read text.mp3 από τη βιβλιοθήκη pygame. Αυτή
-#εκτελείται όταν το ποντίκι περάσει πάνω από το κουμπί που γράφει διάβασε κείμενο. 
-def readbutshout(e):
-    pygame.mixer.music.load("readtext.mp3")
-    pygame.mixer.music.play()
-    
-#Συνάρτηση για την εκφώνηση του αρχείου exit.mp3 από τη βιβλιοθήκη pygame. Αυτή
-#εκτελείται όταν το ποντίκι περάσει πάνω από το κουμπί που γράφει έξοδος. 
-def readbutshout2(e):
-    pygame.mixer.music.load("exit.mp3")
-    pygame.mixer.music.play()
-    
-#Συνάρτηση για την εκφώνηση του αρχείου last line.mp3 από τη βιβλιοθήκη pygame. Αυτή
-#εκτελείται όταν το ποντίκι περάσει πάνω από το κουμπί που γράφει διάβασε τελευταία γραμμή.
-def readbutshout3(e):
-    pygame.mixer.music.load("lastline.mp3")
-    pygame.mixer.music.play()
-    
-#Συνάρτηση για την εκφώνηση του αρχείου save.mp3 από τη βιβλιοθήκη pygame. Αυτή
-#εκτελείται όταν το ποντίκι περάσει πάνω από το κουμπί που γράφει αποθήκευση κειμένου. 
-def readbutshout4(e):
-    pygame.mixer.music.load("save.mp3")
-    pygame.mixer.music.play()
-    
- 
-#Συνάρτηση για την εκφώνηση του αρχείου open txt.mp3 από τη βιβλιοθήκη pygame. Αυτή
-#εκτελείται όταν το ποντίκι περάσετε πάνω από το κουμπί που γράφει άνοιγμα αρχείου.    
-def readbutshout5(e):
-    pygame.mixer.music.load("opentxt.mp3")
-    pygame.mixer.music.play()
-    
+def load_bell_times():  # Διαβάζει τις αποθηκευμένες ώρες κουδουνιού
+    if not os.path.exists(SETTINGS_FILE):  # Αν δεν υπάρχει το αρχείο, επιστρέφει άδεια λίστα
+        return []
+    with open(SETTINGS_FILE, "r") as file:  # Ανοίγει το αρχείο
+        return [line.strip() for line in file.readlines()]  # Επιστρέφει τις ώρες καθαρισμένες από newlines
 
-#Συνάρτηση για την ανάγνωση της τελευταίας γραμμής.  
-def readlastlinetext():
-    #Δημιουργία του ηχητικού αποσπάσματος για τους 50 τελευταίους χαρακτήρες του scroll text
-    #με όνομα txt.
-    tts = gtts.gTTS(str(txt.get("end-50c" , "end")), lang="el")
-    #Αποθήκευση του ηχητικού στο δίσκο με όνομα grami.mp3.
-    tts.save("grami.mp3")
-    #Αναπαραγωγή ηχητικού στα ηχεία. 
-    pygame.mixer.music.load("grami.mp3")
-    pygame.mixer.music.play()
+def save_bell_times(times):  # Αποθηκεύει τις ώρες κουδουνιού σε αρχείο
+    with open(SETTINGS_FILE, "w") as file:  # Άνοιγμα αρχείου για γράψιμο
+        for t in times:
+            file.write(t + "\n")  # Γράφει κάθε ώρα σε νέα γραμμή
 
-#Συνάρτηση για την αποθήκευση του κειμένου που γράψαμε στο σκληρό δίσκο. 
-def savetext():
-    
+def play_next_song():  # Παίζει το επόμενο τραγούδι από τη λίστα
+    global current_song_index, player, playing
+    if current_song_index < len(music_files):  # Αν υπάρχει επόμενο τραγούδι
+        song_path = os.path.join(MUSIC_FOLDER, music_files[current_song_index])  # Φτιάχνει τη διαδρομή του αρχείου
+        player = vlc.MediaPlayer(song_path)  # Δημιουργεί vlc player
+        player.play()  # Παίζει τη μουσική
+        song_label.config(text=f"Παίζει: {music_files[current_song_index]}")  # Ενημερώνει το Label με τον τίτλο
+        current_song_index += 1  # Πάει στο επόμενο τραγούδι
+    else:
+        current_song_index = 0  # Αν τέλειωσε η λίστα, πάει από την αρχή
+        if playing:
+            play_next_song()  # Ξαναπαίζει από την αρχή αν συνεχίζεται η αναπαραγωγή
+
+def start_music_sequence():  # Ξεκινάει την ακολουθία των τραγουδιών
+    global current_song_index, playing
+    playing = True
+    play_next_song()
+
+def stop_music():  # Σταματάει τη μουσική
+    global playing, player
+    if player:
+        player.stop()  # Σταματάει το vlc
+    playing = False
+    song_label.config(text="Καμία μουσική")  # Ενημερώνει ότι δεν παίζει μουσική
+
+def is_song_finished():  # Ελέγχει αν τελείωσε το τραγούδι
+    global player
+    if player:
+        return player.get_state() == vlc.State.Ended  # Αν είναι στην κατάσταση 'Ended'
+    return False
+
+def start_bell_checker():  # Ξεκινάει το thread που ελέγχει την ώρα
+    def check_time():  # Εσωτερική συνάρτηση που τρέχει συνεχώς
+        last_triggered = ""  # Τελευταία ώρα που χτύπησε κουδούνι
+        while True:
+            current = time.strftime("%H:%M")  # Παίρνει την τρέχουσα ώρα
+            if current != last_triggered and current in bell_times:  # Αν είναι νέα ώρα και είναι στη λίστα
+                last_triggered = current
+                if playing:
+                    stop_music()  # Αν παίζει μουσική, τη σταματάει
+                else:
+                    start_music_sequence()  # Αλλιώς ξεκινάει μουσική
+                time.sleep(60)  # Περιμένει 1 λεπτό για να μην ξαναπαίξει αμέσως
+
+            if playing and player and is_song_finished():  # Αν τελείωσε το τραγούδι
+                play_next_song()
+            time.sleep(1)  # Ελέγχει κάθε 1 δευτερόλεπτο
+    threading.Thread(target=check_time, daemon=True).start()  # Τρέχει την παραπάνω λογική σε νέο νήμα
+
+def add_time():  # Προσθέτει νέα ώρα κουδουνιού
+    t = time_entry.get()  # Παίρνει το κείμενο από το πεδίο
+    if t and t not in bell_times:  # Αν δεν είναι άδεια και δεν υπάρχει ήδη
+        bell_times.append(t)
+        update_listbox()
+        save_bell_times(bell_times)
+        time_entry.delete(0, tk.END)  # Καθαρίζει το πεδίο
+    else:
+        messagebox.showinfo("Προσοχή", "Ώρα άδεια ή υπάρχει ήδη.")  # Μήνυμα σφάλματος
+
+def update_listbox():  # Ενημερώνει τη λίστα με τις ώρες
+    listbox.delete(0, tk.END)
+    for index, t in enumerate(sorted(bell_times)):  # Ταξινομεί τις ώρες
+        listbox.insert(tk.END, t)
+        if index % 2 == 0:
+            listbox.itemconfig(index, {'bg': 'green', 'fg': 'white'})  # Πράσινο για ζυγές
+        else:
+            listbox.itemconfig(index, {'bg': 'red', 'fg': 'white'})  # Κόκκινο για μονές
+
+def exodos():  # Τερματισμός εφαρμογής
+    exit()
+
+def numbut(pressed):  # Όταν πατηθεί κουμπί αριθμού
+    if pressed == "d":
+        time_entry.delete(time_entry.index("end") - 1, "end")  # Σβήνει τελευταίο χαρακτήρα
+    else:
+        time_entry.insert("end", pressed)  # Προσθέτει αριθμό/σύμβολο
+
+def delhour():  # Διαγράφει επιλεγμένη ώρα από τη λίστα
     try:
-        #Άνοιγμα αρχείου για εγγραφή με όνομα savedtxt.txt.
-        with open("savedtxt.txt", 'w') as file:
-            #Τοποθέτηση όλου του κειμένου από το scroll text στη μεταβλητή με όνομα text_content.
-            text_content = txt.get("1.0", "end-1c")
-            #Εγγραφή του περιεχομένου της μεταβλητής text_content στο αρχείο.
-            file.write(text_content)
-            
+        selectedtime = listbox.curselection()  # Παίρνει το index της επιλεγμένης ώρας
+        selectedtime = int(selectedtime[0])
+        bell_times.remove(bell_times[selectedtime])  # Αφαιρεί τη συγκεκριμένη ώρα
+        listbox.delete(selectedtime)
+        save_bell_times(bell_times)
+        load_bell_times()
+        update_listbox()
     except:
-        #Αν υπάρξει σφάλμα εμφανίζει το μήνυμα error writing file. 
-        print("error writing file")
+        messagebox.showinfo("Προσοχή", "Παρουσιάστηκε σφάλμα. Ισως δεν έγινε επιλογή στοιχείου")  # Αν δεν έχει επιλεχθεί ώρα
 
-#Συνάρτηση για το άνοιγμα του αποθηκευμένου αρχείου. 
-def opentext():
-    #Άνοιγμα αρχείου για ανάγνωση. 
-    f = open("savedtxt.txt", "r")
-    #Διάβασμα περιεχομένου του αρχείου και τοποθέτηση στη μεταβλητή opentxt.
-    opentxt = f.read()
-    #Τοποθέτηση του περιεχομένου της μεταβλητής opentxt στο scroll text.
-    txt.insert(INSERT,str(opentxt))
+# ----------- GUI -----------
+root = tk.Tk()  # Δημιουργία παραθύρου
+root.title("Σχολικό Κουδούνι")  # Τίτλος παραθύρου
+root.geometry("320x560")  # Μέγεθος παραθύρου
+root.attributes('-fullscreen', True)  # Πλήρης οθόνη
 
-#Συνάρτηση που εκτελείται όταν πατήσουμε το κουμπί έξοδος. 
-def onexit():
-    global exitthread
-    #Αν είναι η σειριακή θύρα είναι ανοιχτή τότε την κλείνει και κάνει τη μεταβλητή exitthread ίσο
-    #με 1 έτσι ώστε να σταματήσει να λειτουργεί το νήμα που έχουμε δημιουργήσει. 
-    try:
-        if SerialPortObj.is_open == True:
-            SerialPortObj.close()
-            exitthread=1
-    except:
-        pass
-    #Κλείνουμε την εφαρμογή. 
-    raise SystemExit
-    
-#Συνάρτηση για την ανάγνωση όλου του κειμένου.
-def readtext():
-    #Δημιουργία φωνητικού χρησιμοποιώντας το scrolltext από το χαρακτήρα 1 έως το τέλος. 
-    tts = gtts.gTTS(str(txt.get( 1.0, "end")), lang="el")
-    #Αποθήκευση φωνητικού που μόλις δημιουργήσαμε στο αρχείο text.mp3. 
-    tts.save("text.mp3")
-    #Αναπαραγωγή του ηχητικού που μόλις δημιουργήσαμε το αρχείο text.mp3
-    #χρησιμοποιώντας τη βιβλιοθήκη pygame. 
-    pygame.mixer.music.load("text.mp3")
-    pygame.mixer.music.play()
+tk.Label(root, text="Ώρα (π.χ. 08:15):").pack(pady=5)  # Ετικέτα για είσοδο ώρας
+time_entry = tk.Entry(root)  # Πεδίο εισαγωγής ώρας
+time_entry.pack()
 
-#Συνάρτηση ανάγνωσης της σειριακής θήρας.
-#Ουσιαστικά αυτό είναι το νήμα το οποίο εκτελείται συνεχώς και ελέγχει αν έφτασαν
-#δεδομένα στη σειριακή θύρα και τα τοποθετεί μέσα σε μία μεταβλητή που ονομάζεται
-#receivedstring, μετά από κατάλληλη επεξεργασία όπου αφαιρεί τα κενά με τη συνάρτηση
-#rstrip και μετατρέπει το χαρακτήρα σε κωδικοποίηση utf 8. Το νήμα θα σταματήσει να
-#επαναλαμβάνετε όταν η μεταβλητή exit thread θα πάρει την τιμή 1. 
-def readport():
-    global exitthread
-    global receivedfive
-    
-    #Η συγκεκριμένη μεταβλητή ουσιαστικά λειτουργεί σαν διακόπτης όπου σε περίπτωση που
-    #γίνει αληθής τότε ελέγχει τους συνδυασμούς οι οποίοι έχουν γράμματα με τόνους ή
-    #σύμβολα.
-    receivedfive=False
-    
-    
-    #Σε αυτό το σημείο δημιουργούμε δύο διαφορετικούς δισδιάστατους πίνακες τον ένα τον
-    #ονομάζουμε combinations και τον άλλο τον ονομάζουμε tonoscombinations. Αυτοί πίνακες
-    #περιέχουν τους συνδυασμούς των πλήκτρων που πατατούνται με τα αντίστοιχα γράμματα η
-    #σύμβολα.
-    combinations=[["100000","α"],
-                  ["110000","β"],
-                  ["110110","γ"],
-                  ["100110","δ"],
-                  ["100010","ε"],
-                  ["101011","ζ"],
-                  ["001110","η"],
-                  ["100111","θ"],
-                  ["010100","ι"],
-                  ["101000","κ"],
-                  ["111000","λ"],
-                  ["101100","μ"],
-                  ["101110","ν"],
-                  ["101101","ξ"],
-                  ["101010","ο"],
-                  ["111100","π"],
-                  ["111010","ρ"],
-                  ["011100","σ"],
-                  ["011110","τ"],
-                  ["101111","υ"],
-                  ["110100","φ"],
-                  ["110010","χ"],
-                  ["111101","ψ"],
-                  ["010110","ω"],
-                  ["110001","αι"],
-                  ["100101","ει"],
-                  ["010101","οι"],
-                  ["110111","υι"],
-                  ["100001","αυ"],
-                  ["100011","ευ"],
-                  ["110011","ηυ"],
-                  ["101001","ου"],
-                  ["000001","-@-"],
-                  ["111111","<-"],
-                  ["011100","ς"],
-                  ["111101",""],
-                  ["101111",""],
-                  ["010011","."],
-                  ["010000",","],
-                  ["010001",";"],
-                  ["001000","'"]]
-    
-    
-    tonoscombinations=[["100000","ά"],
-                       ["100010","έ"],
-                       ["001110","ή"],
-                       ["010100","ί"],
-                       ["010100","ΐ"],
-                       ["101010","ό"],
-                       ["101111","ύ"],
-                       ["101111","ΰ"],
-                       ["010110","ώ"],
-                       ["010100","ϊ"],
-                       ["101111","ϋ"]]
+tk.Button(root, text="Προσθήκη Ώρας", command=add_time).pack(pady=5)  # Κουμπί προσθήκης ώρας
 
-    
-    while exitthread!=1:
-        
-        
-        #Σε αυτό το σημείο οτιδήποτε λαμβάνει από τη σειριακή θύρα το τοποθετεί στη μεταβλητή
-        #receivedstring. Αν αυτό που έλαβε στη μεταβλητή receivedstring είναι διαφορετικό από την
-        #κωδικοποίηση 000010, δηλαδή να μην έχει πατηθεί το κουμπί 5 και η μεταβλητή
-        #receivedfive να είναι ίση με ψευδές τότε ελέγχει μέσα στον πίνακα combinations σε ποιο
-        #γράμμα αντιστοιχεί η συγκεκριμένη κωδικοποίηση. Όταν το εντοπίσει τότε προσθέτει το
-        #γράμμα αυτό μέσα στη μεταβλητή specialchar.
-       
-        try:
-            ReceivedString = SerialPortObj.readline().decode('utf-8').rstrip() 
-            
-            if ReceivedString!="000010" and receivedfive==False:
-                for x in combinations:
-                    if x[0] == ReceivedString:
-                        spesialchar=x[1]
-                        
-            #Άν η κωδικοποίηση που έλαβα από τη σειριακή θύρα είναι όλα μηδενικά και η μεταβλητή
-            #receivedfive είναι ίση με αληθές τότε σημαίνει ότι έχει πατηθεί το κουμπί 5. Τότε ψάχνει την
-            #κωδικοποίηση στον πίνακα tonoscombinations. Όταν το βρει τότε προσθέτει το αντίστοιχο
-            #γράμμα στη μεταβλητή specialchar.
-            if ReceivedString!="000000" and receivedfive==True:
-                for x in tonoscombinations:
-                    if x[0] == ReceivedString:
-                        spesialchar=x[1]
-                        receivedfive=False
-            
-            #Αν η μεταβλητή receivedstring είναι ίση με 5 δηλαδή 000010, τότε κάνει τη μεταβλητή
-            #receivedfive σε αληθές.
-            if ReceivedString=="000010":
-                receivedfive=True
-            
-            
-            #Αν λάβουμε τον ειδικό χαρακτήρα -@- σημαίνει ότι θα τοποθετήσουμε τον χαρακτήρα κενό,
-            #αφού τοποθετηθεί ο χαρακτήρας του κενού τότε σημαίνει ότι έχει ο χρήστης έχει
-            #ολοκληρώσει να γράφει μία λέξη. Αυτή τη λέξη θέλουμε εμείς να την εκφωνήσουμε. Θα
-            #πρέπει λοιπόν σε όλο το κείμενο που έχει γράψει να μπορέσουμε να βρούμε την τελευταία
-            #λέξη έτσι ώστε να δημιουργήσουμε την εκφώνησή της. Για να το κάνουμε αυτό
-            #δημιουργούμε μία λίστα με όνομα lis. Μέσα στη λίστα τοποθετούμε το κείμενο που έχει το
-            #scrolltext αφού το έχουμε σπάσει σε λέξεις χρησιμοποιώντας τη συνάρτηση split (). Με αυτό
-            #τον τρόπο αν πάρουμε το τελευταίο στοιχείο της λίστας τότε έχουμε την τελευταία λέξη που
-            #έγραψε ο χρήστης. Στη συνέχεια δημιουργούμε την εκφώνηση της λέξης και
-            #χρησιμοποιώντας το pygame την εκφωνούμε. 
-            if spesialchar=="-@-":
-                
-                kimeno=txt.get("1.0", "end")
-                lis = list(kimeno.split(" "))
-                length = len(lis)
-                print(lis[length-1])
-                
-                tts = gtts.gTTS(str(lis[length-1]), lang="el")
-                tts.save("lexi.mp3")
-                pygame.mixer.music.load("lexi.mp3")
-                pygame.mixer.music.play()
-                
-                                
-                txt.insert(INSERT," ")
-            
-            #Αν λάβουμε στη σειριακή θύρα των χαρακτήρα <- αυτό σημαίνει ότι ο χρήστης τέλη να
-            #σβήσει το τελευταίο γράμμα που έγραψε. Χρησιμοποιώντας λοιπόν την εντολή txt.delete
-            #διαγράφουμε του τελευταίου χαρακτήρα που γράφτηκε στο scroll text.
-            elif spesialchar=="<-":
-                txt.delete("end-2c","end")
-            #Για οποιαδήποτε άλλη περίπτωση ό,τι λάβει από την σειριακή θύρα το προσθέτει στο τέλος
-            #τους scroll text και στη συνέχεια δημιουργεί το φωνητικό αρχείο και το εκφωνεί μέσω της
-            #βιβλιοθήκης pygame.
-            else:
-                txt.insert(INSERT,str(spesialchar))
-                
-                try:
-                    tts = gtts.gTTS(spesialchar, lang="el")
-                    tts.save("letter.mp3")
-                    pygame.mixer.music.load("letter.mp3")
-                    pygame.mixer.music.play()
-                except:
-                    print("error in letter")
-                
-               
-                spesialchar=""
-               
-            
-        except:
-            print("error")
-           
+row1 = tk.Frame(root)  # Πρώτη σειρά κουμπιών (1-6)
+row1.pack(pady=5)
+tk.Button(row1, text="6", font=("Arial", 30), command=lambda: numbut(pressed=6)).pack(side=tk.RIGHT)
+tk.Button(row1, text="5", font=("Arial", 30), command=lambda: numbut(pressed=5)).pack(side=tk.RIGHT)
+tk.Button(row1, text="4", font=("Arial", 30), command=lambda: numbut(pressed=4)).pack(side=tk.RIGHT)
+tk.Button(row1, text="3", font=("Arial", 30), command=lambda: numbut(pressed=3)).pack(side=tk.RIGHT)
+tk.Button(row1, text="2", font=("Arial", 30), command=lambda: numbut(pressed=2)).pack(side=tk.RIGHT)
+tk.Button(row1, text="1", font=("Arial", 30), command=lambda: numbut(pressed=1)).pack(side=tk.RIGHT)
 
-#Αν η σειριακή πόρτα είναι ανοιχτή τότε ξεκινάμε να εκτελούμε το νήμα. 
-try:
-    if SerialPortObj.is_open == True:
-        t = threading.Thread(target=readport).start()
-except:
-    pass
+row2 = tk.Frame(root)  # Δεύτερη σειρά κουμπιών (7-0, :, διαγραφή)
+row2.pack(pady=5)
+tk.Button(row2, text="<-", font=("Arial", 30), command=lambda: numbut(pressed="d")).pack(side=tk.RIGHT)
+tk.Button(row2, text=" : ", font=("Arial", 30), command=lambda: numbut(pressed=":")).pack(side=tk.RIGHT)
+tk.Button(row2, text="0", font=("Arial", 30), command=lambda: numbut(pressed=0)).pack(side=tk.RIGHT)
+tk.Button(row2, text="9", font=("Arial", 30), command=lambda: numbut(pressed=9)).pack(side=tk.RIGHT)
+tk.Button(row2, text="8", font=("Arial", 30), command=lambda: numbut(pressed=8)).pack(side=tk.RIGHT)
+tk.Button(row2, text="7", font=("Arial", 30), command=lambda: numbut(pressed=7)).pack(side=tk.RIGHT)
 
-#Σε αυτό το τμήμα κώδικα δημιουργούμε το γραφικό περιβάλλον χρήστη. 
+tk.Label(root, text="Ώρες Κουδουνιού:").pack(pady=5)  # Ετικέτα λίστας
+listbox = tk.Listbox(root, font=("Arial", 18))  # Λίστα με τις ώρες
+listbox.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
 
-#Δημιουργούμε το παράθυρο 
-root = Tk()
-#Δίνουμε ένα τίτλο στο παράθυρο που θα φαίνεται στην κορυφή του.
-root.title("Pocket breille")
-#Ορίζουμε το μέγεθος το παραθύρου σε 800 x 480 pixels 
-root.geometry('800x480')
-#Τροποποιούμε την ιδιότητα του παραθύρου έτσι ώστε να φαίνεται πάντα, όταν ξεκινάει το
-#πρόγραμμα, σε πλήρη οθόνη.
-root.wm_attributes('-fullscreen','true')
+tk.Button(root, text="Διαγραφή ώρας", command=delhour).pack(pady=5)  # Κουμπί διαγραφής ώρας
 
-#Θα δημιουργήσουμε τρία frames το αριστερό το μεσαίο και το δεξιό τα οποία θα
-#φιλοξενήσουν τα κουμπιά και το scroll text. Τα frame τα χρησιμοποιούμε για να μπορέσουμε
-#να έχουμε μία σωστή διάταξη για τα αντικείμενά μας.
+tk.Label(root, text="Τραγούδια:").pack(pady=5)  # Ετικέτα για λίστα μουσικής
+music_list = tk.Listbox(root, height=3)  # Μικρή λίστα με τα τραγούδια
+music_list.pack(fill=tk.BOTH, expand=True, pady=5)
 
-#Κατασκευάζουμε το αριστερό frame με ύψος 480 pixels και μήκος 100 pixels βάζουμε το
-#background με χρώμα dodger blue 4. Του κάνουμε αριστερή στοίχιση.
-left_frame= Frame(root, height=480,width=100, bg= "dodgerblue4")
-left_frame.pack(side=LEFT)
-left_frame.pack_propagate(0)
+song_label = tk.Label(root, text="Καμία μουσική", fg="blue")  # Ετικέτα με την τρέχουσα μουσική
+song_label.pack(pady=10)
 
-#Κατασκευάζουμε το μεσαίο frame με ύψος 480 pixels και πλάτος 570 pixels το background
-#το βάζουμε dodger blue 3. Οι στοίχιση και σε αυτό είναι αριστερή.
-middle_frame=Frame(root,height=480,width=570, bg= "dodgerblue3")
-middle_frame.pack(side=LEFT)
-middle_frame.pack_propagate(0)
+img = Image.open("kodon.png")  # Άνοιγμα εικόνας κουδουνιού
+img = img.resize((250, 250))  # Αλλαγή μεγέθους
+img = ImageTk.PhotoImage(img)
+panel = tk.Label(root, image=img)  # Εμφάνιση εικόνας
+panel.image = img
+panel.pack()
 
-#Κατασκευάζουμε το δεξιό frame με ύψος 480 pixels και πλάτος 130 pixels το background το
-#βάζουμε dodger blue 4 και η στοίχιση του είναι δεξιά.
-right_frame=Frame(root,height=480,width=130, bg= "dodgerblue4")
-right_frame.pack(side=RIGHT)
-right_frame.pack_propagate(0)
+tk.Button(root, text="Έξοδος", command=exodos).pack(pady=5)  # Κουμπί εξόδου
 
-#Δημιουργούμε το κουμπί της εξόδου το τοποθετούμε στο δεξιό frame του ορίζουμε σαν
-#εντολή να εκτελέσει τη συνάρτηση onexit καθώς επίσης ορίζουμε πως όταν περάσει ο
-#δείκτης του ποντικιού πάνω από το κουμπί αυτό θα εκτελεί την συνάρτηση readbutshout2.
-#Το κουμπί του τοποθετούμε στο κάτω μέρος του frame για αυτό ορίζουμε και τη λέξη bottom #έχουμε ορίσει αγκιστρωση νοτιοανατολική. 
-closebut = ttk.Button(right_frame, text="Έξοδος",command=onexit)
-closebut.bind("<Enter>", readbutshout2)
-closebut.pack(side=BOTTOM,anchor=NE)
+# ----------- ΕΚΚΙΝΗΣΗ ΠΡΟΓΡΑΜΜΑΤΟΣ -----------
+bell_times = load_bell_times()  # Φόρτωση ωρών
+music_files = load_music_files()  # Φόρτωση μουσικών αρχείων
 
-#Δημιουργούμε το κουμπί που διαβάζει το κείμενο το τοποθετούμε στο αριστερό frame και
-#του ορίζουμε σαν εντολή να εκτελέσει τη συνάρτηση readtext. Το στοιχίζουμε στην κορυφή
-#του frame. 
-readbut = ttk.Button(left_frame, text="Διάβασε \n κείμενο", command=readtext)
-readbut.bind("<Enter>", readbutshout)
-readbut.pack(side=TOP)
+update_listbox()  # Ενημέρωση λίστας
+for song in music_files:
+    music_list.insert(tk.END, song)  # Προσθήκη τραγουδιών στη λίστα
 
-#Δημιουργούμε το κουμπί που που ανοίγει το αρχείο που έχουμε αποθηκεύσει την
-#προηγούμενη εργασία μας, το τοποθετούμε στο αριστερό frame, και το ορίζουμε σαν εντολή
-#να εκτελέσει τη συνάρτηση opentext. Το στοιχίζουμε στο κάτω μέρος του frame. 
-openbut = ttk.Button(left_frame, text="Άνοιγμα \n αρχείου", command=opentext)
-openbut.bind("<Enter>", readbutshout5)
-openbut.pack(side=BOTTOM)
-
-#Δημιουργούμε το κουμπί που διαβάζει την τελευταία γραμμή. Το τοποθετούμε στο δεξιό
-#πλαίσιο ευτυχισμένο στην κορυφή και ορίζουμε σαν εντολή να εκτελέσει τη συνάρτηση
-#readlastlinetext. 
-readlastlinebut = ttk.Button(right_frame, text="Διάβασε την \n τελευταία γραμμή", command=readlastlinetext)
-readlastlinebut.bind("<Enter>", readbutshout3)
-readlastlinebut.pack(side=TOP)
-
-#Δημιουργούμε το κουμπί αποθήκευσης του κειμένου ορίζοντας σαν εντολή εκτελέσει τις
-#συνάρτηση opentext. Το τοποθετούμε στο μεσαίο frame και το στοιχίζουμε στο κάτω μέρος
-#του.
-savebut = ttk.Button(middle_frame, text="Αποθήκευση κειμένου", command=savetext)
-savebut.bind("<Enter>", readbutshout4)
-savebut.pack(side=BOTTOM)
-
-#Δημιουργούμε το skrolled text το οποίο θα εμφανίζεται στο μεσαίο frame και θα έχει ύψος
-#999 χαρακτήρες.
-txt = scrolledtext.ScrolledText(middle_frame, height=999, font=("Arial 30"))
-txt.pack()
-
-#Δημιουργούμε μία εικόνα και την τοποθετούμε μέσα σε ένα label στο δεξιό frame.
-image = Image.open('images/pocketbreillelogo.png')
-image = ImageTk.PhotoImage(image)
-image_label = ttk.Label(right_frame, image=image)
-image_label.pack(side=RIGHT, padx=20)
-
-#Εκτελείται το loop γραφικού περιβάλλοντος της γλώσσας tkinter.
-root.mainloop()
-
+start_bell_checker()  # Ξεκινάει ο έλεγχος ώρας
+root.mainloop()  # Εκκίνηση GUI
 
 
 ```
@@ -821,7 +618,7 @@ root.mainloop()
 
 # :camera: Φωτογραφικό υλικό
 
-###  Προγραμματισμός - Κατασκευή πληκτρολογίου
+###  Προγραμματισμός - Κατασκευή
 
 |||||
 |---|---|---|---|
@@ -833,33 +630,7 @@ root.mainloop()
 |<img src="photos/constract/61.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/62.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/.jpg" alt="" style="width: 100%;"/>|
 |||||  
 
-### Φεστιβάλ Ψηφιακής Δημιουργίας
-
-|||||
-|---|---|---|---|
-|<img src="photos/festival/20.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/22.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/24.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/25.jpg" alt="" style="width: 100%;"/>|
-|<img src="photos/festival/27.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/28.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/29.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/30.jpg" alt="" style="width: 100%;"/>|
-|<img src="photos/festival/31.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/32.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/33.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/34.jpg" alt="" style="width: 100%;"/>|
-|<img src="photos/festival/35.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/36.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/37.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/38.jpg" alt="" style="width: 100%;"/>|
-<img src="photos/festival/39.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/43.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/44.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/45.jpg" alt="" style="width: 100%;"/>|
-<img src="photos/festival/46.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/47.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/48.jpg" alt="" style="width: 100%;"/>|<img src="photos/festival/52.jpg" alt="" style="width: 100%;"/>|
-|||||    
  
-
-### Βιωματική Δράση
-
-|||||
-|---|---|---|---|
-|<img src="photos/viomatiko/71.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/72.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/73.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/74.jpg" alt="" style="width: 100%;"/>|
-|<img src="photos/viomatiko/75.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/76.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/77.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/78.jpg" alt="" style="width: 100%;"/>|
-|<img src="photos/viomatiko/79.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/80.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/82.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/85.jpg" alt="" style="width: 100%;"/>|
-|<img src="photos/viomatiko/86.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/87.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/88.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/89.jpg" alt="" style="width: 100%;"/>|
-|<img src="photos/viomatiko/90.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/91.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/92.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/93.jpg" alt="" style="width: 100%;"/>|
-|<img src="photos/viomatiko/94.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/95.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/96.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/97.jpg" alt="" style="width: 100%;"/>|
-|<img src="photos/viomatiko/98.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/99.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/100.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/101.jpg" alt="" style="width: 100%;"/>|
-|<img src="photos/viomatiko/102.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/.jpg" alt="" style="width: 100%;"/>|<img src="photos/viomatiko/.jpg" alt="" style="width: 100%;"/>|
-|||||    
-
 
 
 # :pray: ΕΥΧΑΡΙΣΤΙΕΣ
@@ -867,12 +638,6 @@ root.mainloop()
 Τον Οργανισμό Ανοιχτών Τεχνολογιών
 
 Τη Διεύθυνση των σχολείων
-
-Τη Γεωργία Νικηφοράκη
-(Γυμνάστρια Ειδικής Αγωγής)
-
-Το Γιώργο Πετράκη 
-(Ψυχολόγος και beta tester)
 
   
 </div> --->
