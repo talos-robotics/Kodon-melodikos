@@ -227,33 +227,25 @@ ___
 Το πρόγραμμα μπορεί να λειτουργεί σε desktop περιβάλλον με λειτουργικά συστήματα που υποστηρίζουν Python, και λόγω της χρήσης της βιβλιοθήλης Tkinter , μπορεί να ενσωματωθεί και σε περιβάλλοντα με οθόνη αφής, όπως ένα Raspberry Pi. 
 Αυτό καθιστά την εφαρμογή ιδανική για σύνδεση στο κουδούνι του σχολείου, επιτρέποντας τον έλεγχο της αναπαραγωγής των κουδουνιών μέσω μιας εύχρηστης οθόνης αφής.
 
-<!---
+
 
 ## :wrench: Εκτύπωση κομματιών στον 3d εκτυπωτή
-<a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/3dprints/Top.stl">
-         - Πάνω μέρος
- </a>
-<br/>
- 
- <a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/3dprints/Bottom.stl">
-         - Κάτω μέρος
+ <a href="https://www.printables.com/model/1062445-raspberry-pi-touch-display-2-stand/files">
+         Raspberry pi stand 3d Parts
  </a>
 
- <br/>
- <a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/3dprints/2xmiddle.stl">
-        - 2 x Μεσαίο κομμάτι
- </a>
+</Br>
 
-## Σχέδιο Σύνδεσης
+## :nut_and_bolt: Σχέδιο Σύνδεσης
 
-<img src="https://github.com/talos-robotics/Pocket-breille-project/blob/main/images/keyboard.png?raw=true" style="width:100%;">
+<img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/connect1.png" style="width:60%;">
 
--->
+
 
 ## Διάγραμμα ροής
 
 <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/Flowchart.png">
-         <img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/Flowchart.png" style="width:70%;">
+         <img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/Flowchart.png" style="width:100%;">
  </a>
 
 ### Επεξήγηση κώδικα
@@ -270,45 +262,10 @@ ___
 
 # :bookmark_tabs: **Ενότητα** :four: <br>
 
-<!---
-
-# Εγκατάσταση και παραμετροποίηση Raspberry pi και Raspberry pi Zero W<br>
-
-<a >
-         <img src="https://assets.raspberrypi.com/static/f03a00485ac096c1033ad1c4a530d63b/74ad4/zero2-close-up.png" style="width:30%;">
- </a>
-
-
-
-
-## Εγκατάσταση λειτουργικού συστήματος στο Raspberry pi Zero W<br>
-
-Ακολουθώντας τον πατακάτω οδηγό θα εγκαταστήσετε το λειτουργικό σύστημα lite. Αυτό το σύστημα δεν διαθέτει παραθυρικό περοβάλλον.
-
-<a href="https://www.youtube.com/watch?v=5DaYK3UKmDk">
-         <img src="https://img.youtube.com/vi/5DaYK3UKmDk/0.jpg" style="width:30%;">
- </a>
-
-<a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/3dprints/Stand.stl">
-         Raspberry pi stand
- </a>
-
-
-## Παραμετροποίηση λειτουργικού στο Raspberry pi Zero W<br>
-
-Μετά την πρώτη εκκίνηση του συστήματος και αφού συνδεθείτε με το λογαριασμό σας
-
-- sudo apt update
-- sudo apt upgrage
-
-
-## Εγκατάσταση Βιβλιοθηκών Python στο Raspberry pi Zero W<br>
-
-- sudo apt install python3-pil python3-pil.imagetk
-
--->
 
 ## Εγκατάσταση λειτουργικού συστήματος στο Raspberry pi και Raspberry pi Zero W
+
+<b> Προσοχή! να κάνετε εγκατάσταση του λειτουργικού συστήματος Rasbian 32 bit τα 64 bit παρουσιάζουν πρόβλημα στην έξοδο του ήχου. </b>
 
 <a >
          <img src="https://imgaz.staticbg.com/thumb/large/oaupload/banggood/images/99/0D/e609132a-54f2-46a6-bcdc-9eb6bff683ef.jpg.webp" style="width:30%;">
@@ -324,7 +281,10 @@ ___
  </a>
 
 ## Παραμετροποίηση λειτουργικού στο Raspberry pi
+Ας κάνουμε οριζόντιο προσανατολισμό στην οθόνη μας
 
+<img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/orientation1.png" style="width:60%;">
+<img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/orientation2.png" style="width:60%;">
 
 <div>
 
@@ -341,11 +301,6 @@ ___
  </div>
 
 
-## Εκτύπωση κομματιών στον 3d εκτυπωτή
-
- <a href="https://www.printables.com/model/1062445-raspberry-pi-touch-display-2-stand/files">
-         Raspberry pi stand 3d Parts
- </a>
 
 
 <!--
