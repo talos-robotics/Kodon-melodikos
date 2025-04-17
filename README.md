@@ -128,6 +128,27 @@
 
 Μέσα από αυτό το μοντέλο, οι μαθητές μετατράπηκαν από παθητικοί δέκτες σε ενεργούς δημιουργούς, ενισχύοντας δεξιότητες όπως η επίλυση προβλημάτων, η κριτική σκέψη και η δημιουργικότητα. Το αποτέλεσμα ήταν όχι μόνο μια πλήρως λειτουργική εφαρμογή αυτόματου σχολικού κουδουνιού, αλλά και η καλλιέργεια μιας θετικής στάσης απέναντι στη μάθηση και τη χρήση της τεχνολογίας με σκοπό.
 
+
+# :memo:  Φύλλα Εργασίας <br>
+
+<!--
+<a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/work%20sheet/%CE%A6%CF%8D%CE%BB%CE%BB%CE%BF%20%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82%201%20-%20Arduino.pdf">
+   Φύλλο εργασίας 1 <br>
+ </a>
+ <a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/work%20sheet/%CE%A6%CF%8D%CE%BB%CE%BB%CE%BF%20%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82%202%20-%20Arduino.pdf">
+   Φύλλο εργασίας 2 <br>
+ </a>
+ <a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/work%20sheet/%CE%A6%CF%8D%CE%BB%CE%BB%CE%BF%20%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82%203%20-%20Arduino.pdf">
+   Φύλλο εργασίας 3 <br>
+ </a>
+ <a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/work%20sheet/%CE%A6%CF%8D%CE%BB%CE%BB%CE%BF%20%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82%204%20-%20Python.pdf">
+   Φύλλο εργασίας 4 <br>
+ </a>
+ <a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/work%20sheet/%CE%A6%CF%8D%CE%BB%CE%BB%CE%BF%20%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82%205%20-%20Python.pdf">
+   Φύλλο εργασίας 5 <br>
+ </a>
+-->
+
 # Θεωρητικό μέρος
 ___
 
@@ -145,7 +166,6 @@ ___
 
 ___
 
-# ⚛️: **Ενότητα** :two: :<br>
 
   <div align="left">
 
@@ -206,9 +226,11 @@ ___
 
 ___
 
+# ⚛️: **Ενότητα** :two: :<br>
+
+
 # Κατασκευή κουδουνιού <br>
 
-# :nut_and_bolt: **Ενότητα** :three: :wrench:<br>
 
 ## Open educational resources project
 <img src="https://github.com/talos-robotics/Pocket-breille-project/blob/main/images/OER-canvas_GREEK%20.png" style="width:100%;">
@@ -228,7 +250,6 @@ ___
 Αυτό καθιστά την εφαρμογή ιδανική για σύνδεση στο κουδούνι του σχολείου, επιτρέποντας τον έλεγχο της αναπαραγωγής των κουδουνιών μέσω μιας εύχρηστης οθόνης αφής.
 
 
-
 ## :wrench: Εκτύπωση κομματιών στον 3d εκτυπωτή
  <a href="https://www.printables.com/model/1062445-raspberry-pi-touch-display-2-stand/files">
          Raspberry pi stand 3d Parts
@@ -240,28 +261,10 @@ ___
 
 <img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/connect1.png" style="width:60%;">
 
-
-
-## Διάγραμμα ροής
-
-<a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/Flowchart.png">
-         <img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/Flowchart.png" style="width:100%;">
- </a>
-
-### Επεξήγηση κώδικα
-
-Ο παρακάτω κώδικας υλοποιεί μια εφαρμογή σε Python με γραφικό περιβάλλον (GUI) μέσω της βιβλιοθήκης tkinter, η οποία λειτουργεί ως ένα "σχολικό κουδούνι" που παίζει μουσική σε προκαθορισμένες ώρες. 
-Ο φάκελος music περιέχει τα διαθέσιμα μουσικά αρχεία (.mp3 ή .wav), ενώ το αρχείο bell_times.txt αποθηκεύει τις ώρες στις οποίες πρέπει να ενεργοποιείται το κουδούνι. 
-Ο χρήστης μπορεί να προσθέτει ή να διαγράφει ώρες μέσα από το περιβάλλον, να βλέπει τη λίστα των ωρών και να τις χειρίζεται εύκολα μέσω αριθμητικών κουμπιών.
-Όταν φτάσει η ώρα ενός προγραμματισμένου κουδουνιού, η εφαρμογή ελέγχει εάν ήδη παίζει μουσική — αν όχι, ξεκινά να παίζει το επόμενο διαθέσιμο από τη λίστα τραγουδιών μέσω του vlc.MediaPlayer.
-Το πρόγραμμα ελέγχει συνεχώς την ώρα σε ξεχωριστό νήμα (thread) για να μην μπλοκάρει η διεπαφή.
-Υπάρχουν επίσης χειρισμοί για να διακόπτεται η μουσική και να γίνεται έξοδος από το πρόγραμμα.
-Συνολικά, είναι ένα πλήρες εργαλείο αυτοματισμού για τη χρήση μουσικής ως κουδούνι στο σχολικό περιβάλλον.
-___
-
-
+<!--
+# :nut_and_bolt: **Ενότητα** :three: :wrench:<br>
 # :bookmark_tabs: **Ενότητα** :four: <br>
-
+-->
 
 ## Εγκατάσταση λειτουργικού συστήματος στο Raspberry pi και Raspberry pi Zero W
 
@@ -301,98 +304,118 @@ ___
  </div>
 
 
+## Διάγραμμα ροής
 
+<a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/Flowchart.png">
+         <img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/Flowchart.png" style="width:100%;">
+ </a>
 
-<!--
+### Επεξήγηση κώδικα
+
+Ο παρακάτω κώδικας υλοποιεί μια εφαρμογή σε Python με γραφικό περιβάλλον (GUI) μέσω της βιβλιοθήκης tkinter, η οποία λειτουργεί ως ένα "σχολικό κουδούνι" που παίζει μουσική σε προκαθορισμένες ώρες. 
+Ο φάκελος music περιέχει τα διαθέσιμα μουσικά αρχεία (.mp3 ή .wav), ενώ το αρχείο bell_times.txt αποθηκεύει τις ώρες στις οποίες πρέπει να ενεργοποιείται το κουδούνι. 
+Ο χρήστης μπορεί να προσθέτει ή να διαγράφει ώρες μέσα από το περιβάλλον, να βλέπει τη λίστα των ωρών και να τις χειρίζεται εύκολα μέσω αριθμητικών κουμπιών.
+Όταν φτάσει η ώρα ενός προγραμματισμένου κουδουνιού, η εφαρμογή ελέγχει εάν ήδη παίζει μουσική — αν όχι, ξεκινά να παίζει το επόμενο διαθέσιμο από τη λίστα τραγουδιών μέσω του vlc.MediaPlayer.
+Το πρόγραμμα ελέγχει συνεχώς την ώρα σε ξεχωριστό νήμα (thread) για να μην μπλοκάρει η διεπαφή.
+Υπάρχουν επίσης χειρισμοί για να διακόπτεται η μουσική και να γίνεται έξοδος από το πρόγραμμα.
+Συνολικά, είναι ένα πλήρες εργαλείο αυτοματισμού για τη χρήση μουσικής ως κουδούνι στο σχολικό περιβάλλον.
+___
 
  ## Κώδικας Python
 
 ```Python
-import tkinter as tk
-from tkinter import messagebox
-import os
-import time
-import threading
-import vlc
-from PIL import ImageTk, Image
-
+import tkinter as tk  # Εισάγει τη βιβλιοθήκη tkinter για δημιουργία GUI
+from tkinter import messagebox  # Για χρήση αναδυόμενων παραθύρων προειδοποίησης/πληροφόρησης
+import os  # Χρήση για διαχείριση αρχείων/φακέλων (π.χ. ανάγνωση, ύπαρξη)
+import time  # Εργαλεία σχετικά με την ώρα (π.χ. format, sleep)
+import threading  # Για να εκτελείται παράλληλα ο έλεγχος ώρας
+import vlc  # Χρήση του VLC player για αναπαραγωγή μουσικών αρχείων
+from PIL import ImageTk, Image  # Για εμφάνιση εικόνων στο tkinter GUI
 
 # ----------- ΡΥΘΜΙΣΕΙΣ -----------
-MUSIC_FOLDER = "music"
-SETTINGS_FILE = "bell_times.txt"
+MUSIC_FOLDER = "music"  # Ο φάκελος που πρέπει να βρίσκονται τα μουσικά αρχεία
+SETTINGS_FILE = "bell_times.txt"  # Το αρχείο που αποθηκεύονται οι ώρες κουδουνιού
 
 # ----------- GLOBALS -----------
-current_song_index = 0
-music_files = []
-bell_times = []
-playing = False
-player = None
+current_song_index = 0  # Δείκτης για το ποιο τραγούδι παίζεται αυτή τη στιγμή
+music_files = []  # Λίστα με τα ονόματα των αρχείων μουσικής
+bell_times = []  # Λίστα με τις καθορισμένες ώρες για κουδούνι
+playing = False  # Μεταβλητή κατάστασης αν παίζει μουσική
+player = None  # Αντικείμενο του vlc.MediaPlayer
 
 # ----------- ΛΕΙΤΟΥΡΓΙΕΣ -----------
+
+# Διαβάζει όλα τα μουσικά αρχεία από τον φάκελο MUSIC_FOLDER
 def load_music_files():
     return [f for f in os.listdir(MUSIC_FOLDER) if f.endswith(('.mp3', '.wav'))]
 
+# Φορτώνει τις ώρες από το αρχείο SETTINGS_FILE
 def load_bell_times():
     if not os.path.exists(SETTINGS_FILE):
-        return []
+        return []  # Αν δεν υπάρχει το αρχείο, επιστρέφει κενή λίστα
     with open(SETTINGS_FILE, "r") as file:
-        return [line.strip() for line in file.readlines()]
+        return [line.strip() for line in file.readlines()]  # Διαβάζει κάθε γραμμή (ώρα)
 
+# Αποθηκεύει τις ώρες κουδουνιού στο αρχείο
 def save_bell_times(times):
     with open(SETTINGS_FILE, "w") as file:
         for t in times:
             file.write(t + "\n")
 
+# Παίζει το επόμενο τραγούδι στη λίστα
 def play_next_song():
     global current_song_index, player, playing
     if current_song_index < len(music_files):
-        song_path = os.path.join(MUSIC_FOLDER, music_files[current_song_index])
-        player = vlc.MediaPlayer(song_path)
-        player.play()
-        song_label.config(text=f"Παίζει: {music_files[current_song_index]}")
-        current_song_index += 1
+        song_path = os.path.join(MUSIC_FOLDER, music_files[current_song_index])  # Δημιουργεί την πλήρη διαδρομή αρχείου
+        player = vlc.MediaPlayer(song_path)  # Δημιουργεί αντικείμενο αναπαραγωγής
+        player.play()  # Εκκινεί την αναπαραγωγή
+        song_label.config(text=f"Παίζει: {music_files[current_song_index]}")  # Ενημέρωση GUI
+        current_song_index += 1  # Περνά στο επόμενο τραγούδι
     else:
-        current_song_index = 0
+        current_song_index = 0  # Αν έφτασε στο τέλος της λίστας, επανεκκίνηση
         if playing:
             play_next_song()
 
+# Ξεκινά την ακολουθία τραγουδιών
 def start_music_sequence():
     global current_song_index, playing
-    #current_song_index = 0
     playing = True
     play_next_song()
 
+# Σταματά την αναπαραγωγή μουσικής
 def stop_music():
     global playing, player
     if player:
         player.stop()
     playing = False
-    song_label.config(text="Καμία μουσική")
+    song_label.config(text="Καμία μουσική")  # Ενημερώνει το GUI
 
+# Ελέγχει αν έχει τελειώσει το τραγούδι
 def is_song_finished():
     global player
     if player:
         return player.get_state() == vlc.State.Ended
     return False
 
+# Εκτελεί σε νέο νήμα συνεχή έλεγχο της ώρας για το αν ταιριάζει με bell_times
 def start_bell_checker():
     def check_time():
         last_triggered = ""
         while True:
-            current = time.strftime("%H:%M")
+            current = time.strftime("%H:%M")  # Παίρνει την τρέχουσα ώρα σε μορφή 24ώρη
             if current != last_triggered and current in bell_times:
                 last_triggered = current
                 if playing:
                     stop_music()
                 else:
                     start_music_sequence()
-                time.sleep(60)
-
+                time.sleep(60)  # Περιμένει 60" για να μην χτυπά ξανά μέσα στο ίδιο λεπτό
             if playing and player and is_song_finished():
                 play_next_song()
-            time.sleep(1)
-    threading.Thread(target=check_time, daemon=True).start()
+            time.sleep(1)  # Περιμένει 1 δευτερόλεπτο μεταξύ ελέγχων
+    threading.Thread(target=check_time, daemon=True).start()  # Εκκίνηση νήματος
 
+# Προσθήκη ώρας στο κουδούνι
 def add_time():
     t = time_entry.get()
     if t and t not in bell_times:
@@ -403,28 +426,31 @@ def add_time():
     else:
         messagebox.showinfo("Προσοχή", "Ώρα άδεια ή υπάρχει ήδη.")
 
+# Ανανεώνει το γραφικό στοιχείο λίστας με τις ώρες
 def update_listbox():
     listbox.delete(0, tk.END)
-    for index,t in enumerate(sorted(bell_times)):
+    for index, t in enumerate(sorted(bell_times)):
         listbox.insert(tk.END, t)
         if index % 2 == 0:
             listbox.itemconfig(index, {'bg': 'green', 'fg': 'white'})
         else:
             listbox.itemconfig(index, {'bg': 'red', 'fg': 'white'})
 
+# Κλείνει το πρόγραμμα
 def exodos():
     exit()
 
+# Προσθέτει αριθμούς ή διαγράφει από το πεδίο εισόδου ώρας
 def numbut(pressed):
-
-    if pressed=="d":
-        time_entry.delete(time_entry.index("end")-1,"end")
+    if pressed == "d":
+        time_entry.delete(time_entry.index("end") - 1, "end")
     else:
         time_entry.insert("end", pressed)
 
+# Διαγράφει ώρα που έχει επιλεγεί στη λίστα
 def delhour():
     try:
-        selectedtime=listbox.curselection()
+        selectedtime = listbox.curselection()
         selectedtime = int(selectedtime[0])
         bell_times.remove(bell_times[selectedtime])
         listbox.delete(selectedtime)
@@ -434,14 +460,12 @@ def delhour():
     except:
         messagebox.showinfo("Προσοχή", "Παρουσιάστηκε σφάλμα. Ισως δεν έγινε επιλογή στιχείου")
 
-
-
 # ----------- GUI -----------
-root = tk.Tk()
+
+root = tk.Tk()  # Δημιουργία του παραθύρου της εφαρμογής
 root.title("Σχολικό Κουδούνι")
 root.geometry("1280x720")
-root.attributes('-fullscreen',True)
-
+root.attributes('-fullscreen', True)  # Πλήρης οθόνη
 
 tk.Label(root, text="Ώρα (π.χ. 08:15):").pack(pady=5)
 time_entry = tk.Entry(root)
@@ -452,21 +476,19 @@ tk.Button(root, text="Προσθήκη Ώρας", command=add_time).pack(pady=5)
 row1 = tk.Frame(root)
 row1.pack(pady=5)
 
-
-tk.Button(row1, text="<-", font=("Arial", 30), command=lambda: numbut(pressed="d")).pack(side=tk.RIGHT)
-tk.Button(row1, text=" : ", font=("Arial", 30), command=lambda: numbut(pressed=":")).pack(side=tk.RIGHT)
-tk.Button(row1, text="0", font=("Arial", 30), command=lambda: numbut(pressed=0)).pack(side=tk.RIGHT)
-tk.Button(row1, text="9", font=("Arial", 30), command=lambda: numbut(pressed=9)).pack(side=tk.RIGHT)
-tk.Button(row1, text="8", font=("Arial", 30), command=lambda: numbut(pressed=8)).pack(side=tk.RIGHT)
-tk.Button(row1, text="7", font=("Arial", 30), command=lambda: numbut(pressed=7)).pack(side=tk.RIGHT)
-tk.Button(row1, text="6", font=("Arial", 30), command=lambda: numbut(pressed=6)).pack(side=tk.RIGHT)
-tk.Button(row1, text="5", font=("Arial", 30), command=lambda: numbut(pressed=5)).pack(side=tk.RIGHT)
-tk.Button(row1, text="4", font=("Arial", 30), command=lambda: numbut(pressed=4)).pack(side=tk.RIGHT)
-tk.Button(row1, text="3", font=("Arial", 30), command=lambda: numbut(pressed=3)).pack(side=tk.RIGHT)
-tk.Button(row1, text="2", font=("Arial", 30), command=lambda: numbut(pressed=2)).pack(side=tk.RIGHT)
-tk.Button(row1, text="1", font=("Arial", 30), command=lambda: numbut(pressed=1)).pack(side=tk.RIGHT)
-
-
+# Κουμπιά αριθμητικού πληκτρολογίου
+tk.Button(row1, text="<-", font=("Arial", 30), command=lambda: numbut("d")).pack(side=tk.RIGHT)
+tk.Button(row1, text=" : ", font=("Arial", 30), command=lambda: numbut(":")).pack(side=tk.RIGHT)
+tk.Button(row1, text="0", font=("Arial", 30), command=lambda: numbut(0)).pack(side=tk.RIGHT)
+tk.Button(row1, text="9", font=("Arial", 30), command=lambda: numbut(9)).pack(side=tk.RIGHT)
+tk.Button(row1, text="8", font=("Arial", 30), command=lambda: numbut(8)).pack(side=tk.RIGHT)
+tk.Button(row1, text="7", font=("Arial", 30), command=lambda: numbut(7)).pack(side=tk.RIGHT)
+tk.Button(row1, text="6", font=("Arial", 30), command=lambda: numbut(6)).pack(side=tk.RIGHT)
+tk.Button(row1, text="5", font=("Arial", 30), command=lambda: numbut(5)).pack(side=tk.RIGHT)
+tk.Button(row1, text="4", font=("Arial", 30), command=lambda: numbut(4)).pack(side=tk.RIGHT)
+tk.Button(row1, text="3", font=("Arial", 30), command=lambda: numbut(3)).pack(side=tk.RIGHT)
+tk.Button(row1, text="2", font=("Arial", 30), command=lambda: numbut(2)).pack(side=tk.RIGHT)
+tk.Button(row1, text="1", font=("Arial", 30), command=lambda: numbut(1)).pack(side=tk.RIGHT)
 
 tk.Label(root, text="Ώρες Κουδουνιού:").pack(pady=5)
 listbox = tk.Listbox(root, font=("Arial", 15))
@@ -474,73 +496,48 @@ listbox.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
 
 tk.Button(root, text="Διαγραφή ώρας", command=delhour).pack(pady=5)
 
-
 row2 = tk.Frame(root)
-row2.pack(padx=10,pady=5,side=tk.LEFT)
+row2.pack(padx=10, pady=5, side=tk.LEFT)
 
 tk.Label(row2, text="Τραγούδια:").pack(pady=5)
 music_list = tk.Listbox(row2, height=3)
-music_list.pack(fill=tk.BOTH, expand=True,pady=5)
-
-
+music_list.pack(fill=tk.BOTH, expand=True, pady=5)
 
 song_label = tk.Label(row2, text="Καμία μουσική", fg="blue")
 song_label.pack(pady=10)
 
-
-
 row3 = tk.Frame(root)
-row3.pack(padx=10,pady=5,side=tk.RIGHT)
+row3.pack(padx=10, pady=5, side=tk.RIGHT)
 
 img = Image.open("kodon.png")
 img = img.resize((100, 100))
 img = ImageTk.PhotoImage(img)
 panel = tk.Label(row3, image=img)
-panel.image = img
+panel.image = img  # Χρήσιμο για να κρατήσει την εικόνα ενεργή στο αντικείμενο
 panel.pack()
 
 tk.Button(row3, text="Έξοδος", command=exodos).pack(pady=5)
 
-
 # ----------- ΕΚΚΙΝΗΣΗ -----------
-bell_times = load_bell_times()
-music_files = load_music_files()
 
-update_listbox()
+bell_times = load_bell_times()  # Φόρτωση αποθηκευμένων ωρών
+music_files = load_music_files()  # Ανάγνωση τραγουδιών από τον φάκελο
+
+update_listbox()  # Εμφάνιση των ωρών στο GUI
 for song in music_files:
-    music_list.insert(tk.END, song)
+    music_list.insert(tk.END, song)  # Εισαγωγή κάθε τραγουδιού στη λίστα
 
-start_bell_checker()
-root.mainloop()
-
-
+start_bell_checker()  # Εκκίνηση ελέγχου ώρας σε background thread
+root.mainloop()  # Εκκίνηση του GUI
 
 ```
-
-# :memo: **Ενότητα** :five:  Φύλλα Εργασίας <br>
-
-<a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/work%20sheet/%CE%A6%CF%8D%CE%BB%CE%BB%CE%BF%20%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82%201%20-%20Arduino.pdf">
-   Φύλλο εργασίας 1 <br>
- </a>
- <a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/work%20sheet/%CE%A6%CF%8D%CE%BB%CE%BB%CE%BF%20%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82%202%20-%20Arduino.pdf">
-   Φύλλο εργασίας 2 <br>
- </a>
- <a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/work%20sheet/%CE%A6%CF%8D%CE%BB%CE%BB%CE%BF%20%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82%203%20-%20Arduino.pdf">
-   Φύλλο εργασίας 3 <br>
- </a>
- <a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/work%20sheet/%CE%A6%CF%8D%CE%BB%CE%BB%CE%BF%20%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82%204%20-%20Python.pdf">
-   Φύλλο εργασίας 4 <br>
- </a>
- <a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/work%20sheet/%CE%A6%CF%8D%CE%BB%CE%BB%CE%BF%20%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82%205%20-%20Python.pdf">
-   Φύλλο εργασίας 5 <br>
- </a>
 
 
 
  
 </div>
 
-
+<!--
 
   
   <div>
@@ -577,7 +574,7 @@ root.mainloop()
 |||||  
 
  
-
+--->
 
 # :pray: ΕΥΧΑΡΙΣΤΙΕΣ
 
@@ -586,4 +583,4 @@ root.mainloop()
 Τη Διεύθυνση των σχολείων
 
   
-</div> --->
+</div> 
