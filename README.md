@@ -252,46 +252,21 @@ ___
 
 ## Διάγραμμα ροής
 
-<!---
-
-<a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/codetoflow%20(3).png">
-         <img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/codetoflow%20(1).png" style="width:70%;">
+<a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/Flowchart.png">
+         <img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/Flowchart.png" style="width:70%;">
  </a>
 
 ### Επεξήγηση κώδικα
-    
-1. Αρχικοποίηση:
-Η συνάρτηση initboot() είναι υπεύθυνη για την αρχική ρύθμιση της εφαρμογής.
-Διαβάζει τη διαμόρφωση από ένα αρχείο, προσδιορίζει την τρέχουσα ημέρα της εβδομάδας και ορίζει τον κατάλληλο κατάλογο για τα αρχεία μουσικής της ημέρας.
-Η συνάρτηση στη συνέχεια φορτώνει τα αρχεία τραγουδιών από τον κατάλογο, τα προσθέτει στο treesongs Treeview και θέτει την αρχική επιλογή στο πρώτο τραγούδι.
-Τέλος, φορτώνει το πρόγραμμα κουδουνιών από τη διαμόρφωση και ενημερώνει το treebells Treeview με το πρόγραμμα κουδουνιών.
 
-2. Χρονοδιάγραμμα Κουδουνιών:
-Οι συναρτήσεις startbelladd() και stopbelladd() επιτρέπουν στον χρήστη να ρυθμίσει τις ώρες έναρξης και λήξης για κάθε διάλειμμα στο πρόγραμμα κουδουνιών.
-Η συνάρτηση startbellfunc() ξεκινά το νήμα του χρονοδιακόπτη, το οποίο είναι υπεύθυνο για τη διαχείριση του προγράμματος κουδουνιών και την αναπαραγωγή τραγουδιών.
-Η συνάρτηση pausebellfunc() ενεργοποιεί ή απενεργοποιεί την κατάσταση παύσης του προγράμματος κουδουνιών.
-
-3. Αναπαραγωγή Τραγουδιών:
-Η συνάρτηση playsong() φορτώνει και παίζει το επιλεγμένο τραγούδι από το treesongs Treeview.
-Η συνάρτηση stopsong() σταματά σταδιακά το τραγούδι που παίζει αυτή τη στιγμή.
-Η συνάρτηση pausesong() παύει ή συνεχίζει το τραγούδι που παίζει.
-Η συνάρτηση openfolder() επιτρέπει στον χρήστη να επιλέξει έναν κατάλογο και να φορτώσει τα τραγούδια από τον κατάλογο στο treesongs Treeview.
-
-4. Νήμα Χρονοδιακόπτη:
-Η συνάρτηση timer() εκτελείται σε ξεχωριστό νήμα και είναι υπεύθυνη για τη βασική λειτουργικότητα της εφαρμογής.
-Ελέγχει συνεχώς την τρέχουσα ώρα και τη συγκρίνει με τις προγραμματισμένες ώρες κουδουνιών στο treebells Treeview.
-Εάν ένα κουδούνι είναι προγραμματισμένο να ηχήσει, παίζει το τραγούδι και ενημερώνει την κατάσταση παύσης ανάλογα.
-Επίσης, ελέγχει εάν το τρέχον τραγούδι έχει τελειώσει και προχωρά στο επόμενο τραγούδι εάν είναι απαραίτητο.
-Το νήμα εκτελείται μέχρι να κλείσει το παράθυρο της εφαρμογής, οπότε σταματά τη μουσική και τερματίζει.
-Ο κώδικας χρησιμοποιεί διάφορα Tkinter widgets, όπως Frames, Buttons, Spinboxes, Comboboxes και Treeviews για τη δημιουργία της διεπαφής χρήστη. Ενσωματώνει επίσης τη βιβλιοθήκη
-Pygame για την αναπαραγωγή ήχου και τη βιβλιοθήκη Pillow (PIL) για την επεξεργασία εικόνας.
-
-Το διάγραμμα υπογραμμίζει τις βασικές λειτουργίες, αλληλεπιδράσεις και τη ροή ελέγχου μέσα στην εφαρμογή.    
-
-
+Ο παρακάτω κώδικας υλοποιεί μια εφαρμογή σε Python με γραφικό περιβάλλον (GUI) μέσω της βιβλιοθήκης tkinter, η οποία λειτουργεί ως ένα "σχολικό κουδούνι" που παίζει μουσική σε προκαθορισμένες ώρες. 
+Ο φάκελος music περιέχει τα διαθέσιμα μουσικά αρχεία (.mp3 ή .wav), ενώ το αρχείο bell_times.txt αποθηκεύει τις ώρες στις οποίες πρέπει να ενεργοποιείται το κουδούνι. 
+Ο χρήστης μπορεί να προσθέτει ή να διαγράφει ώρες μέσα από το περιβάλλον, να βλέπει τη λίστα των ωρών και να τις χειρίζεται εύκολα μέσω αριθμητικών κουμπιών.
+Όταν φτάσει η ώρα ενός προγραμματισμένου κουδουνιού, η εφαρμογή ελέγχει εάν ήδη παίζει μουσική — αν όχι, ξεκινά να παίζει το επόμενο διαθέσιμο από τη λίστα τραγουδιών μέσω του vlc.MediaPlayer.
+Το πρόγραμμα ελέγχει συνεχώς την ώρα σε ξεχωριστό νήμα (thread) για να μην μπλοκάρει η διεπαφή.
+Υπάρχουν επίσης χειρισμοί για να διακόπτεται η μουσική και να γίνεται έξοδος από το πρόγραμμα.
+Συνολικά, είναι ένα πλήρες εργαλείο αυτοματισμού για τη χρήση μουσικής ως κουδούνι στο σχολικό περιβάλλον.
 ___
 
--->
 
 # :bookmark_tabs: **Ενότητα** :four: <br>
 
@@ -333,7 +308,7 @@ ___
 
 -->
 
-## Εγκατάσταση λειτουργικού συστήματος στο Raspberry pi
+## Εγκατάσταση λειτουργικού συστήματος στο Raspberry pi και Raspberry pi Zero W
 
 <a >
          <img src="https://imgaz.staticbg.com/thumb/large/oaupload/banggood/images/99/0D/e609132a-54f2-46a6-bcdc-9eb6bff683ef.jpg.webp" style="width:30%;">
@@ -359,176 +334,176 @@ ___
 
 Στο τερματικό του raspbian
     
-Δημιουργούμε ένα νέο εικονικό περιβάλλον εργασίας Python
-- python3 -m venv schooleye
-
-Ενεργοποιούμε το περιβάλλον αυτό
-- cd schooleye
-- source bin/activate
-
-Κάνουμε εγκατάσταση τις βιβλιοθήκες με τη χρήση του εργαλείου pip3
-- pip3 install pillow
-- pip3 install serial
-- pip3 install serial-tool
-- pip3 install thread
+- sudo apt update
+- sudo apt upgrage
+- sudo apt install python3-pil python3-pil.imagetk
    
  </div>
 
 
 ## Εκτύπωση κομματιών στον 3d εκτυπωτή
 
- <a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/3dprints/Stand.stl">
-         Raspberry pi stand
+ <a href="https://www.printables.com/model/1062445-raspberry-pi-touch-display-2-stand/files">
+         Raspberry pi stand 3d Parts
  </a>
 
 
 <!--
-## Διάγραμμα ροής
-
-<img src="https://github.com/talos-robotics/Pocket-breille-project/blob/main/images/pythonflow.png" style="width:100%;">
-
 
  ## Κώδικας Python
 
 ```Python
-import tkinter as tk  # Βιβλιοθήκη για γραφικά (GUI)
-from tkinter import messagebox  # Μηνύματα διαλόγου (π.χ. ειδοποιήσεις)
-import os  # Διαχείριση αρχείων και φακέλων
-import time  # Εργασία με ημερομηνίες και ώρες
-import threading  # Για να τρέχουν πράγματα παράλληλα (χωρίς να κολλάει το GUI)
-import vlc  # Βιβλιοθήκη για αναπαραγωγή ήχου/βίντεο με το VLC
-from PIL import ImageTk, Image  # Για εμφάνιση εικόνας στο Tkinter
+import tkinter as tk
+from tkinter import messagebox
+import os
+import time
+import threading
+import vlc
+from PIL import ImageTk, Image
+
 
 # ----------- ΡΥΘΜΙΣΕΙΣ -----------
-MUSIC_FOLDER = "music"  # Φάκελος που έχει τη μουσική
-SETTINGS_FILE = "bell_times.txt"  # Αρχείο που αποθηκεύονται οι ώρες κουδουνιού
+MUSIC_FOLDER = "music"
+SETTINGS_FILE = "bell_times.txt"
 
 # ----------- GLOBALS -----------
-current_song_index = 0  # Δείχνει ποιο τραγούδι παίζει τώρα
-music_files = []  # Λίστα με τα ονόματα αρχείων μουσικής
-bell_times = []  # Λίστα με τις ώρες που χτυπάει κουδούνι
-playing = False  # Αν παίζει μουσική ή όχι
-player = None  # Αντικείμενο vlc για την αναπαραγωγή
+current_song_index = 0
+music_files = []
+bell_times = []
+playing = False
+player = None
 
 # ----------- ΛΕΙΤΟΥΡΓΙΕΣ -----------
+def load_music_files():
+    return [f for f in os.listdir(MUSIC_FOLDER) if f.endswith(('.mp3', '.wav'))]
 
-def load_music_files():  # Διαβάζει τα αρχεία μουσικής από το φάκελο
-    return [f for f in os.listdir(MUSIC_FOLDER) if f.endswith(('.mp3', '.wav'))]  # Επιστρέφει μόνο mp3/wav
-
-def load_bell_times():  # Διαβάζει τις αποθηκευμένες ώρες κουδουνιού
-    if not os.path.exists(SETTINGS_FILE):  # Αν δεν υπάρχει το αρχείο, επιστρέφει άδεια λίστα
+def load_bell_times():
+    if not os.path.exists(SETTINGS_FILE):
         return []
-    with open(SETTINGS_FILE, "r") as file:  # Ανοίγει το αρχείο
-        return [line.strip() for line in file.readlines()]  # Επιστρέφει τις ώρες καθαρισμένες από newlines
+    with open(SETTINGS_FILE, "r") as file:
+        return [line.strip() for line in file.readlines()]
 
-def save_bell_times(times):  # Αποθηκεύει τις ώρες κουδουνιού σε αρχείο
-    with open(SETTINGS_FILE, "w") as file:  # Άνοιγμα αρχείου για γράψιμο
+def save_bell_times(times):
+    with open(SETTINGS_FILE, "w") as file:
         for t in times:
-            file.write(t + "\n")  # Γράφει κάθε ώρα σε νέα γραμμή
+            file.write(t + "\n")
 
-def play_next_song():  # Παίζει το επόμενο τραγούδι από τη λίστα
+def play_next_song():
     global current_song_index, player, playing
-    if current_song_index < len(music_files):  # Αν υπάρχει επόμενο τραγούδι
-        song_path = os.path.join(MUSIC_FOLDER, music_files[current_song_index])  # Φτιάχνει τη διαδρομή του αρχείου
-        player = vlc.MediaPlayer(song_path)  # Δημιουργεί vlc player
-        player.play()  # Παίζει τη μουσική
-        song_label.config(text=f"Παίζει: {music_files[current_song_index]}")  # Ενημερώνει το Label με τον τίτλο
-        current_song_index += 1  # Πάει στο επόμενο τραγούδι
+    if current_song_index < len(music_files):
+        song_path = os.path.join(MUSIC_FOLDER, music_files[current_song_index])
+        player = vlc.MediaPlayer(song_path)
+        player.play()
+        song_label.config(text=f"Παίζει: {music_files[current_song_index]}")
+        current_song_index += 1
     else:
-        current_song_index = 0  # Αν τέλειωσε η λίστα, πάει από την αρχή
+        current_song_index = 0
         if playing:
-            play_next_song()  # Ξαναπαίζει από την αρχή αν συνεχίζεται η αναπαραγωγή
+            play_next_song()
 
-def start_music_sequence():  # Ξεκινάει την ακολουθία των τραγουδιών
+def start_music_sequence():
     global current_song_index, playing
+    #current_song_index = 0
     playing = True
     play_next_song()
 
-def stop_music():  # Σταματάει τη μουσική
+def stop_music():
     global playing, player
     if player:
-        player.stop()  # Σταματάει το vlc
+        player.stop()
     playing = False
-    song_label.config(text="Καμία μουσική")  # Ενημερώνει ότι δεν παίζει μουσική
+    song_label.config(text="Καμία μουσική")
 
-def is_song_finished():  # Ελέγχει αν τελείωσε το τραγούδι
+def is_song_finished():
     global player
     if player:
-        return player.get_state() == vlc.State.Ended  # Αν είναι στην κατάσταση 'Ended'
+        return player.get_state() == vlc.State.Ended
     return False
 
-def start_bell_checker():  # Ξεκινάει το thread που ελέγχει την ώρα
-    def check_time():  # Εσωτερική συνάρτηση που τρέχει συνεχώς
-        last_triggered = ""  # Τελευταία ώρα που χτύπησε κουδούνι
+def start_bell_checker():
+    def check_time():
+        last_triggered = ""
         while True:
-            current = time.strftime("%H:%M")  # Παίρνει την τρέχουσα ώρα
-            if current != last_triggered and current in bell_times:  # Αν είναι νέα ώρα και είναι στη λίστα
+            current = time.strftime("%H:%M")
+            if current != last_triggered and current in bell_times:
                 last_triggered = current
                 if playing:
-                    stop_music()  # Αν παίζει μουσική, τη σταματάει
+                    stop_music()
                 else:
-                    start_music_sequence()  # Αλλιώς ξεκινάει μουσική
-                time.sleep(60)  # Περιμένει 1 λεπτό για να μην ξαναπαίξει αμέσως
+                    start_music_sequence()
+                time.sleep(60)
 
-            if playing and player and is_song_finished():  # Αν τελείωσε το τραγούδι
+            if playing and player and is_song_finished():
                 play_next_song()
-            time.sleep(1)  # Ελέγχει κάθε 1 δευτερόλεπτο
-    threading.Thread(target=check_time, daemon=True).start()  # Τρέχει την παραπάνω λογική σε νέο νήμα
+            time.sleep(1)
+    threading.Thread(target=check_time, daemon=True).start()
 
-def add_time():  # Προσθέτει νέα ώρα κουδουνιού
-    t = time_entry.get()  # Παίρνει το κείμενο από το πεδίο
-    if t and t not in bell_times:  # Αν δεν είναι άδεια και δεν υπάρχει ήδη
+def add_time():
+    t = time_entry.get()
+    if t and t not in bell_times:
         bell_times.append(t)
         update_listbox()
         save_bell_times(bell_times)
-        time_entry.delete(0, tk.END)  # Καθαρίζει το πεδίο
+        time_entry.delete(0, tk.END)
     else:
-        messagebox.showinfo("Προσοχή", "Ώρα άδεια ή υπάρχει ήδη.")  # Μήνυμα σφάλματος
+        messagebox.showinfo("Προσοχή", "Ώρα άδεια ή υπάρχει ήδη.")
 
-def update_listbox():  # Ενημερώνει τη λίστα με τις ώρες
+def update_listbox():
     listbox.delete(0, tk.END)
-    for index, t in enumerate(sorted(bell_times)):  # Ταξινομεί τις ώρες
+    for index,t in enumerate(sorted(bell_times)):
         listbox.insert(tk.END, t)
         if index % 2 == 0:
-            listbox.itemconfig(index, {'bg': 'green', 'fg': 'white'})  # Πράσινο για ζυγές
+            listbox.itemconfig(index, {'bg': 'green', 'fg': 'white'})
         else:
-            listbox.itemconfig(index, {'bg': 'red', 'fg': 'white'})  # Κόκκινο για μονές
+            listbox.itemconfig(index, {'bg': 'red', 'fg': 'white'})
 
-def exodos():  # Τερματισμός εφαρμογής
+def exodos():
     exit()
 
-def numbut(pressed):  # Όταν πατηθεί κουμπί αριθμού
-    if pressed == "d":
-        time_entry.delete(time_entry.index("end") - 1, "end")  # Σβήνει τελευταίο χαρακτήρα
-    else:
-        time_entry.insert("end", pressed)  # Προσθέτει αριθμό/σύμβολο
+def numbut(pressed):
 
-def delhour():  # Διαγράφει επιλεγμένη ώρα από τη λίστα
+    if pressed=="d":
+        time_entry.delete(time_entry.index("end")-1,"end")
+    else:
+        time_entry.insert("end", pressed)
+
+def delhour():
     try:
-        selectedtime = listbox.curselection()  # Παίρνει το index της επιλεγμένης ώρας
+        selectedtime=listbox.curselection()
         selectedtime = int(selectedtime[0])
-        bell_times.remove(bell_times[selectedtime])  # Αφαιρεί τη συγκεκριμένη ώρα
+        bell_times.remove(bell_times[selectedtime])
         listbox.delete(selectedtime)
         save_bell_times(bell_times)
         load_bell_times()
         update_listbox()
     except:
-        messagebox.showinfo("Προσοχή", "Παρουσιάστηκε σφάλμα. Ισως δεν έγινε επιλογή στοιχείου")  # Αν δεν έχει επιλεχθεί ώρα
+        messagebox.showinfo("Προσοχή", "Παρουσιάστηκε σφάλμα. Ισως δεν έγινε επιλογή στιχείου")
+
+
 
 # ----------- GUI -----------
-root = tk.Tk()  # Δημιουργία παραθύρου
-root.title("Σχολικό Κουδούνι")  # Τίτλος παραθύρου
-root.geometry("320x560")  # Μέγεθος παραθύρου
-root.attributes('-fullscreen', True)  # Πλήρης οθόνη
+root = tk.Tk()
+root.title("Σχολικό Κουδούνι")
+root.geometry("1280x720")
+root.attributes('-fullscreen',True)
 
-tk.Label(root, text="Ώρα (π.χ. 08:15):").pack(pady=5)  # Ετικέτα για είσοδο ώρας
-time_entry = tk.Entry(root)  # Πεδίο εισαγωγής ώρας
+
+tk.Label(root, text="Ώρα (π.χ. 08:15):").pack(pady=5)
+time_entry = tk.Entry(root)
 time_entry.pack()
 
-tk.Button(root, text="Προσθήκη Ώρας", command=add_time).pack(pady=5)  # Κουμπί προσθήκης ώρας
+tk.Button(root, text="Προσθήκη Ώρας", command=add_time).pack(pady=5)
 
-row1 = tk.Frame(root)  # Πρώτη σειρά κουμπιών (1-6)
+row1 = tk.Frame(root)
 row1.pack(pady=5)
+
+
+tk.Button(row1, text="<-", font=("Arial", 30), command=lambda: numbut(pressed="d")).pack(side=tk.RIGHT)
+tk.Button(row1, text=" : ", font=("Arial", 30), command=lambda: numbut(pressed=":")).pack(side=tk.RIGHT)
+tk.Button(row1, text="0", font=("Arial", 30), command=lambda: numbut(pressed=0)).pack(side=tk.RIGHT)
+tk.Button(row1, text="9", font=("Arial", 30), command=lambda: numbut(pressed=9)).pack(side=tk.RIGHT)
+tk.Button(row1, text="8", font=("Arial", 30), command=lambda: numbut(pressed=8)).pack(side=tk.RIGHT)
+tk.Button(row1, text="7", font=("Arial", 30), command=lambda: numbut(pressed=7)).pack(side=tk.RIGHT)
 tk.Button(row1, text="6", font=("Arial", 30), command=lambda: numbut(pressed=6)).pack(side=tk.RIGHT)
 tk.Button(row1, text="5", font=("Arial", 30), command=lambda: numbut(pressed=5)).pack(side=tk.RIGHT)
 tk.Button(row1, text="4", font=("Arial", 30), command=lambda: numbut(pressed=4)).pack(side=tk.RIGHT)
@@ -536,47 +511,53 @@ tk.Button(row1, text="3", font=("Arial", 30), command=lambda: numbut(pressed=3))
 tk.Button(row1, text="2", font=("Arial", 30), command=lambda: numbut(pressed=2)).pack(side=tk.RIGHT)
 tk.Button(row1, text="1", font=("Arial", 30), command=lambda: numbut(pressed=1)).pack(side=tk.RIGHT)
 
-row2 = tk.Frame(root)  # Δεύτερη σειρά κουμπιών (7-0, :, διαγραφή)
-row2.pack(pady=5)
-tk.Button(row2, text="<-", font=("Arial", 30), command=lambda: numbut(pressed="d")).pack(side=tk.RIGHT)
-tk.Button(row2, text=" : ", font=("Arial", 30), command=lambda: numbut(pressed=":")).pack(side=tk.RIGHT)
-tk.Button(row2, text="0", font=("Arial", 30), command=lambda: numbut(pressed=0)).pack(side=tk.RIGHT)
-tk.Button(row2, text="9", font=("Arial", 30), command=lambda: numbut(pressed=9)).pack(side=tk.RIGHT)
-tk.Button(row2, text="8", font=("Arial", 30), command=lambda: numbut(pressed=8)).pack(side=tk.RIGHT)
-tk.Button(row2, text="7", font=("Arial", 30), command=lambda: numbut(pressed=7)).pack(side=tk.RIGHT)
 
-tk.Label(root, text="Ώρες Κουδουνιού:").pack(pady=5)  # Ετικέτα λίστας
-listbox = tk.Listbox(root, font=("Arial", 18))  # Λίστα με τις ώρες
+
+tk.Label(root, text="Ώρες Κουδουνιού:").pack(pady=5)
+listbox = tk.Listbox(root, font=("Arial", 15))
 listbox.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
 
-tk.Button(root, text="Διαγραφή ώρας", command=delhour).pack(pady=5)  # Κουμπί διαγραφής ώρας
+tk.Button(root, text="Διαγραφή ώρας", command=delhour).pack(pady=5)
 
-tk.Label(root, text="Τραγούδια:").pack(pady=5)  # Ετικέτα για λίστα μουσικής
-music_list = tk.Listbox(root, height=3)  # Μικρή λίστα με τα τραγούδια
-music_list.pack(fill=tk.BOTH, expand=True, pady=5)
 
-song_label = tk.Label(root, text="Καμία μουσική", fg="blue")  # Ετικέτα με την τρέχουσα μουσική
+row2 = tk.Frame(root)
+row2.pack(padx=10,pady=5,side=tk.LEFT)
+
+tk.Label(row2, text="Τραγούδια:").pack(pady=5)
+music_list = tk.Listbox(row2, height=3)
+music_list.pack(fill=tk.BOTH, expand=True,pady=5)
+
+
+
+song_label = tk.Label(row2, text="Καμία μουσική", fg="blue")
 song_label.pack(pady=10)
 
-img = Image.open("kodon.png")  # Άνοιγμα εικόνας κουδουνιού
-img = img.resize((250, 250))  # Αλλαγή μεγέθους
+
+
+row3 = tk.Frame(root)
+row3.pack(padx=10,pady=5,side=tk.RIGHT)
+
+img = Image.open("kodon.png")
+img = img.resize((100, 100))
 img = ImageTk.PhotoImage(img)
-panel = tk.Label(root, image=img)  # Εμφάνιση εικόνας
+panel = tk.Label(row3, image=img)
 panel.image = img
 panel.pack()
 
-tk.Button(root, text="Έξοδος", command=exodos).pack(pady=5)  # Κουμπί εξόδου
+tk.Button(row3, text="Έξοδος", command=exodos).pack(pady=5)
 
-# ----------- ΕΚΚΙΝΗΣΗ ΠΡΟΓΡΑΜΜΑΤΟΣ -----------
-bell_times = load_bell_times()  # Φόρτωση ωρών
-music_files = load_music_files()  # Φόρτωση μουσικών αρχείων
 
-update_listbox()  # Ενημέρωση λίστας
+# ----------- ΕΚΚΙΝΗΣΗ -----------
+bell_times = load_bell_times()
+music_files = load_music_files()
+
+update_listbox()
 for song in music_files:
-    music_list.insert(tk.END, song)  # Προσθήκη τραγουδιών στη λίστα
+    music_list.insert(tk.END, song)
 
-start_bell_checker()  # Ξεκινάει ο έλεγχος ώρας
-root.mainloop()  # Εκκίνηση GUI
+start_bell_checker()
+root.mainloop()
+
 
 
 ```
