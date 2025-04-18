@@ -182,6 +182,14 @@
   <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/Frames%20%CF%83%CF%84%CE%BF%20Tkinter.pdf">
   Frames στο Tkinter  <br>
  </a>
+   <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/Textboxes.pdf">
+   Textboxes <br>
+ </a>
+ </a>
+   <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/Buttons.pdf">
+   Buttons <br>
+ </a>
+ </a>
   <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/Messagebox%20.pdf">
   Messagebox <br>
  </a>
@@ -191,6 +199,7 @@
   <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/%CE%A0%CF%81%CE%BF%CF%83%CE%B8%CE%AE%CE%BA%CE%B7%20%CE%95%CE%B9%CE%BA%CF%8C%CE%BD%CE%B1%CF%82%20%CF%83%CE%B5%20Label.pdf">
    Προσθήκη Εικόνας σε Label.pdf <br>
  </a>
+ 
    <a href="">
     <br>
  </a>
