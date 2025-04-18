@@ -135,22 +135,64 @@
  </a>
 
 
-# :memo:  Φύλλα Εργασίας <br>
+# :memo:  Φύλλα Εργασίας Python <br>
 
 <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/1-%CE%95%CE%B3%CE%BA%CE%B1%CF%84%CE%AC%CF%83%CF%84%CE%B1%CF%83%CE%B7%20%CF%84%CE%BF%CF%85%20Thonny%20%CE%BA%CE%B1%CE%B9%20%CF%84%CE%B7%CE%BD%20%CE%A0%CF%81%CE%BF%CF%83%CE%B8%CE%AE%CE%BA%CE%B7%20%CE%9D%CE%AD%CF%89%CE%BD%20%CE%92%CE%B9%CE%B2%CE%BB%CE%B9%CE%BF%CE%B8%CE%B7%CE%BA%CF%8E%CE%BD.pdf">
-   Φύλλο εργασίας 1 <br>
+   Εγκατάσταση του Thonny και την Προσθήκη Νέων Βιβλιοθηκών <br>
  </a>
  <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/2-%CE%95%CE%BD%CF%84%CE%BF%CE%BB%CE%AE%20print().pdf">
-   Φύλλο εργασίας 2 <br>
+   Εντολή print() <br>
  </a>
  <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/3-%CE%9C%CE%B5%CF%84%CE%B1%CE%B2%CE%BB%CE%B7%CF%84%CE%AD%CF%82.pdf">
-   Φύλλο εργασίας 3 <br>
+   Μεταβλητές <br>
  </a>
  <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/4-%CE%95%CE%BD%CF%84%CE%BF%CE%BB%CE%AE%20IF.pdf">
-   Φύλλο εργασίας 4 <br>
+   Εντολή IF <br>
  </a>
  <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/%CE%92%CE%B1%CF%83%CE%B9%CE%BA%CE%BF%CE%AF%20%CE%9A%CE%B1%CE%BD%CF%8C%CE%BD%CE%B5%CF%82%20%CE%A3%CF%8D%CE%BD%CF%84%CE%B1%CE%BE%CE%B7%CF%82.pdf">
-   Φύλλο εργασίας 5 <br>
+   Βασικοί Κανόνες Σύνταξης <br>
+ </a>
+  <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/%CE%A3%CF%85%CE%B3%CE%BA%CF%81%CE%B9%CF%84%CE%B9%CE%BA%CE%BF%CE%AF%20%CF%84%CE%B5%CE%BB%CE%B5%CF%83%CF%84%CE%AD%CF%82.pdf">
+   Συγκριτικοί τελεστές <br>
+ </a>
+ <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/%CE%9B%CE%BF%CE%B3%CE%B9%CE%BA%CE%AD%CF%82%20%CE%A0%CF%81%CE%AC%CE%BE%CE%B5%CE%B9%CF%82.pdf">
+    Λογικές Πράξεις <br>
+ </a>
+ <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/%CE%95%CF%80%CE%B1%CE%BD%CE%B1%CE%BB%CE%B7%CF%80%CF%84%CE%B9%CE%BA%CE%AD%CF%82%20%CE%94%CE%BF%CE%BC%CE%AD%CF%82.pdf">
+   Επαναληπτικές Δομές <br>
+ </a>
+ <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/%CE%9B%CE%AF%CF%83%CF%84%CE%B5%CF%82.pdf">
+   Λίστες <br>
+ </a>
+ <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/%CE%A3%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.pdf">
+   Συναρτήσεις <br>
+ </a>
+ <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/%CE%9D%CE%AE%CE%BC%CE%B1%CF%84%CE%B1.pdf">
+  Νήματα  <br>
+ </a>
+ <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/%CE%A7%CF%81%CE%AE%CF%83%CE%B7%20%CE%91%CF%81%CF%87%CE%B5%CE%AF%CF%89%CE%BD%20%CF%83%CF%84%CE%B7%CE%BD%20Python.pdf">
+   Χρήση Αρχείων στην Python <br>
+ </a>
+ 
+ # :memo:  Φύλλα Εργασίας Tkinter <br>
+ 
+  <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/%CE%92%CE%B1%CF%83%CE%B9%CE%BA%CE%AC%20%CE%94%CE%BF%CE%BC%CE%B9%CE%BA%CE%AC%20%CE%A3%CF%84%CE%BF%CE%B9%CF%87%CE%B5%CE%AF%CE%B1%20%CF%84%CE%B7%CF%82%20%CE%92%CE%B9%CE%B2%CE%BB%CE%B9%CE%BF%CE%B8%CE%AE%CE%BA%CE%B7%CF%82%20Tkinter.pdf">
+  Βασικά Δομικά Στοιχεία της Βιβλιοθήκης Tkinter  <br>
+ </a>
+  <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/Frames%20%CF%83%CF%84%CE%BF%20Tkinter.pdf">
+  Frames στο Tkinter  <br>
+ </a>
+  <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/Messagebox%20.pdf">
+  Messagebox <br>
+ </a>
+  <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/Treeview.pdf">
+   Treeview <br>
+ </a>
+  <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/%CE%A0%CF%81%CE%BF%CF%83%CE%B8%CE%AE%CE%BA%CE%B7%20%CE%95%CE%B9%CE%BA%CF%8C%CE%BD%CE%B1%CF%82%20%CF%83%CE%B5%20Label.pdf">
+   Προσθήκη Εικόνας σε Label.pdf <br>
+ </a>
+   <a href="">
+    <br>
  </a>
 
 # Θεωρητικό μέρος
