@@ -131,23 +131,21 @@
 
 # :memo:  Φύλλα Εργασίας <br>
 
-<!--
-<a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/work%20sheet/%CE%A6%CF%8D%CE%BB%CE%BB%CE%BF%20%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82%201%20-%20Arduino.pdf">
+<a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/1-%CE%95%CE%B3%CE%BA%CE%B1%CF%84%CE%AC%CF%83%CF%84%CE%B1%CF%83%CE%B7%20%CF%84%CE%BF%CF%85%20Thonny%20%CE%BA%CE%B1%CE%B9%20%CF%84%CE%B7%CE%BD%20%CE%A0%CF%81%CE%BF%CF%83%CE%B8%CE%AE%CE%BA%CE%B7%20%CE%9D%CE%AD%CF%89%CE%BD%20%CE%92%CE%B9%CE%B2%CE%BB%CE%B9%CE%BF%CE%B8%CE%B7%CE%BA%CF%8E%CE%BD.pdf">
    Φύλλο εργασίας 1 <br>
  </a>
- <a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/work%20sheet/%CE%A6%CF%8D%CE%BB%CE%BB%CE%BF%20%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82%202%20-%20Arduino.pdf">
+ <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/2-%CE%95%CE%BD%CF%84%CE%BF%CE%BB%CE%AE%20print().pdf">
    Φύλλο εργασίας 2 <br>
  </a>
- <a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/work%20sheet/%CE%A6%CF%8D%CE%BB%CE%BB%CE%BF%20%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82%203%20-%20Arduino.pdf">
+ <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/3-%CE%9C%CE%B5%CF%84%CE%B1%CE%B2%CE%BB%CE%B7%CF%84%CE%AD%CF%82.pdf">
    Φύλλο εργασίας 3 <br>
  </a>
- <a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/work%20sheet/%CE%A6%CF%8D%CE%BB%CE%BB%CE%BF%20%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82%204%20-%20Python.pdf">
+ <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/4-%CE%95%CE%BD%CF%84%CE%BF%CE%BB%CE%AE%20IF.pdf">
    Φύλλο εργασίας 4 <br>
  </a>
- <a href="https://github.com/talos-robotics/Pocket-breille-project/blob/main/work%20sheet/%CE%A6%CF%8D%CE%BB%CE%BB%CE%BF%20%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82%205%20-%20Python.pdf">
+ <a href="https://github.com/talos-robotics/Kodon-melodikos/blob/main/fila_ergasias/%CE%92%CE%B1%CF%83%CE%B9%CE%BA%CE%BF%CE%AF%20%CE%9A%CE%B1%CE%BD%CF%8C%CE%BD%CE%B5%CF%82%20%CE%A3%CF%8D%CE%BD%CF%84%CE%B1%CE%BE%CE%B7%CF%82.pdf">
    Φύλλο εργασίας 5 <br>
  </a>
--->
 
 # Θεωρητικό μέρος
 ___
