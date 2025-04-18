@@ -537,18 +537,30 @@ root.mainloop()  # Εκκίνηση του GUI
  
 </div>
 
-<!--
+
 
   
   <div>
 
 # :warning: Τι να προσέξω - Αστοχίες και λάθη
 
-- Το πλαίσιο και το κουτί θα μπορούσε να είναι στενότερο και μακρύτερο έτσι ώστε η διάταξη των πλήκτρων να είναι στη σειρά, όπως η γραφομηχανή braille.
-- Καλύτερη ποιότητα κουμπιών
-- Καλύτερη ποιότητα οθόνης
+Ένα απο τα προβλήματα που μας παρουσιάστηκαν είναι οτι στην python 3.12 υπάρχουν προβλήματα με τη βιβλιοθήκη του vlc. Παρακάτω υπάρχουν οι εντολές που θα χρειαστεί να εκτελέσετε στο τερματικό έτσι ώστε να κάνετε εγκατάσταση μία παλαιότερη έκδοση python οπως την 3.10 και στη συνέχεια να εγκαταστήσετε τις βιβλιοθήκες που πρέπει. Θα δημιουργήσετε ένα εικονικό περιβάλλον για να εκτελείτε την 3.10.
+
+- sudo apt update
+- sudo apt install software-properties-common -y
+- sudo add-apt-repository ppa:deadsnakes/ppa
+- sudo apt update
+- sudo apt install python3.10 python3.10-venv python3.10-dev
+- python3.10 -m venv ~/mypython10
+- source ~/mypython10/bin/activate
+- pip install --upgrade pip
+- python3.10 -m pip install python-vlc
+- sudo apt install python3.10-tk
+- python3.10 -m pip install pillow
   
 </div>
+
+<!--
   
 # :movie_camera: Βίντεο παρουσίαση
 
