@@ -204,7 +204,11 @@
     <br>
  </a>
 
-# Θεωρητικό μέρος
+ ## Open educational resources project
+<img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/OER-canvas_GREEK%20.png" style="width:100%;">
+
+
+# Θεωρητικό μέρος - Εισαγωγή
 ___
 
 # Κατεβάζω τα δωρεάν βιβλία
@@ -222,13 +226,9 @@ ___
   <div align="left">
 
 
-# 📚: **Ενότητα** :one: :<br>
-
-## Η γλώσσα προγραμματισμού PYTHON
-
 ### Η γλώσσα προγραμματισμού PYTHON
 
-<a > <img src="https://logodownload.org/wp-content/uploads/2019/10/python-logo.png" style="width:10%;"></a>
+<a > <img src="https://logodownload.org/wp-content/uploads/2019/10/python-logo.png" style="width:30%;"></a>
 
 Η γλώσσα προγραμματισμού Python είναι μια υψηλού επιπέδου, διερμηνευόμενη γλώσσα προγραμματισμού που δημιουργήθηκε από τον Guido van Rossum και κυκλοφόρησε για πρώτη φορά το 1991. Η Python έχει σχεδιαστεί με έμφαση στην αναγνωσιμότητα του κώδικα και την απλότητα, κάτι που την καθιστά ιδανική για αρχάριους προγραμματιστές.
 
@@ -250,7 +250,7 @@ ___
 
 ### Τι είναι το Tkinter
 
-<a > <img src="https://fr-images.tuto.net/tuto/thumb/1296/576/199001.jpg" style="width:10%;"></a>
+<a > <img src="https://fr-images.tuto.net/tuto/thumb/1296/576/199001.jpg" style="width:30%;"></a>
 
 Η γλώσσα tkinter είναι μια βιβλιοθήκη προγραμματισμού που χρησιμοποιείται για την ανάπτυξη γραφικών διεπαφών χρήστη (GUI) σε Python. Το όνομα “tkinter” προέρχεται από τη συνδυασμένη χρήση των λέξεων “Tk” και “inter”, όπου το “Tk” αναφέρεται στη βιβλιοθήκη Tkinter και το “inter” στο γεγονός ότι αλληλεπιδρά με το περιβάλλον Python.
 
@@ -265,7 +265,7 @@ ___
 
 ### Raspberry pi
 
-<a > <img src="https://imgaz3.staticbg.com/thumb/large/oaupload/banggood/images/D9/8D/95419586-c196-41f1-82c9-ef3528a07ddc.jpg.webp" style="width:10%;"></a> <a > <img src="https://grobotronics.com/images/thumbnails/350/350/detailed/113/raspberry-pi-zero-wireless_1024x1024_grobo.jpg" style="width:10%;"></a>
+<a > <img src="https://imgaz3.staticbg.com/thumb/large/oaupload/banggood/images/D9/8D/95419586-c196-41f1-82c9-ef3528a07ddc.jpg.webp" style="width:30%;"></a> <a > <img src="https://grobotronics.com/images/thumbnails/350/350/detailed/113/raspberry-pi-zero-wireless_1024x1024_grobo.jpg" style="width:30%;"></a>
 
 Το Raspberry Pi είναι ένας μικρός υπολογιστής μονόπλευρης πλακέτας που αναπτύχθηκε από το Raspberry Pi Foundation. Αυτός ο μικρός υπολογιστής προσφέρει μια οικονομική και εύχρηστη λύση για την εκμάθηση προγραμματισμού, των ηλεκτρονικών και των υπολογιστικών δεξιοτήτων.
 
@@ -282,14 +282,8 @@ ___
 
 ___
 
-# Κατασκευή κουδουνιού <br>
-
 # ⚛️: **Ενότητα** :two: :<br>
-
-## ΥΛΙΚΟ
-
-## Open educational resources project
-<img src="https://github.com/talos-robotics/Pocket-breille-project/blob/main/images/OER-canvas_GREEK%20.png" style="width:100%;">
+# Κατασκευή κουδουνιού <br>
 
 ## Περιγραφή λειτουργίας συστήματος
 
@@ -305,6 +299,8 @@ ___
 Το πρόγραμμα μπορεί να λειτουργεί σε desktop περιβάλλον με λειτουργικά συστήματα που υποστηρίζουν Python, και λόγω της χρήσης της βιβλιοθήλης Tkinter , μπορεί να ενσωματωθεί και σε περιβάλλοντα με οθόνη αφής, όπως ένα Raspberry Pi. 
 Αυτό καθιστά την εφαρμογή ιδανική για σύνδεση στο κουδούνι του σχολείου, επιτρέποντας τον έλεγχο της αναπαραγωγής των κουδουνιών μέσω μιας εύχρηστης οθόνης αφής.
 
+
+## ΥΛΙΚΟ
 
 ## :wrench: Εκτύπωση κομματιών στον 3d εκτυπωτή
  <a href="https://www.printables.com/model/1062445-raspberry-pi-touch-display-2-stand/files">
@@ -601,6 +597,9 @@ root.mainloop()  # Εκκίνηση του GUI
   <div>
 
 
+# ⚛️: **Ενότητα** :four: :<br>
+
+
 ## :warning: Τι να προσέξω - Αστοχίες και λάθη
 
 Ένα απο τα προβλήματα που μας παρουσιάστηκαν είναι οτι στην python 3.12 υπάρχουν προβλήματα με τη βιβλιοθήκη του vlc. Παρακάτω υπάρχουν οι εντολές που θα χρειαστεί να εκτελέσετε στο τερματικό έτσι ώστε να κάνετε εγκατάσταση μία παλαιότερη έκδοση python οπως την 3.10 και στη συνέχεια να εγκαταστήσετε τις βιβλιοθήκες που πρέπει. Θα δημιουργήσετε ένα εικονικό περιβάλλον για να εκτελείτε την 3.10.
@@ -620,7 +619,7 @@ root.mainloop()  # Εκκίνηση του GUI
 </div>
 
 
-# ⚛️: **Ενότητα** :four: :<br>
+# ⚛️: **Ενότητα** :five: :<br>
 
 # Παρουσίαση
 
