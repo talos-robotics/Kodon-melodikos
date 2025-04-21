@@ -356,6 +356,12 @@ ___
  </div>
 
 
+## Συνδεσμολογία για το rasperry pi zero των μαθητών
+
+<img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/1zero.png" style="width:50%;"><img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/2zero.png" style="width:50%;">
+<img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/3zero.png" style="width:50%;"><img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/4zero.png" style="width:50%;">
+
+
 # :pushpin: **Ενότητα** :three: :<br>
 
 # :floppy_disk: ΛΟΓΙΣΜΙΚΟ
