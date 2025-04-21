@@ -338,8 +338,8 @@ ___
 ## Παραμετροποίηση λειτουργικού στο Raspberry pi
 Ας κάνουμε οριζόντιο προσανατολισμό στην οθόνη μας
 
-<img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/orientation1.png" style="width:60%;">
-<img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/orientation2.png" style="width:60%;">
+<img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/orientation1.png" style="width:50%;"><img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/orientation2.png" style="width:50%;">
+
 
 <div>
 
