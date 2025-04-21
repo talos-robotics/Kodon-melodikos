@@ -37,7 +37,7 @@
 
 <div style="text-align: left; ">
 
-## <u>Συμμετέχοντες</u>
+## :busts_in_silhouette: <u>Συμμετέχοντες</u>
 
 ### Υπεύθυνος εκπαιδευτικός
 
@@ -59,7 +59,7 @@
 
 <div>
 
-# <u>Γενικά στοιχεία σεναρίου</u>
+# :dart: <u>Γενικά στοιχεία σεναρίου</u>
 
 ## Σενάριο δραστηριότητας
 
@@ -99,7 +99,7 @@
   
 
 
-# Υλικά ηλεκτρονικά
+# :nut_and_bolt: Υλικά ηλεκτρονικά
 
 |Είδος|Ποσότητα|Τιμή Μονάδας|Σύνολο|Περιγραφή|
 |---|---|---|---|---|
@@ -117,7 +117,7 @@
   
 </div>
 
-# 📚: **Ενότητα** :one: :<br>
+# :pushpin: **Ενότητα** :one: :<br>
 
 # Εκπαιδευτική διαδικασία
 
@@ -208,7 +208,7 @@
 <img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/OER-canvas_GREEK%20.png" style="width:100%;">
 
 
-# Θεωρητικό μέρος - Εισαγωγή
+# :mortar_board: Θεωρητικό μέρος - Εισαγωγή
 ___
 
 # Κατεβάζω τα δωρεάν βιβλία
@@ -265,7 +265,7 @@ ___
 
 ### Raspberry pi
 
-<a > <img src="https://imgaz3.staticbg.com/thumb/large/oaupload/banggood/images/D9/8D/95419586-c196-41f1-82c9-ef3528a07ddc.jpg.webp" style="width:30%;"></a> <a > <img src="https://grobotronics.com/images/thumbnails/350/350/detailed/113/raspberry-pi-zero-wireless_1024x1024_grobo.jpg" style="width:30%;"></a>
+<a > <img src="https://imgaz3.staticbg.com/thumb/large/oaupload/banggood/images/D9/8D/95419586-c196-41f1-82c9-ef3528a07ddc.jpg.webp" style="width:30%;"></a> <a > <img src="https://grobotronics.com/images/thumbnails/570/570/detailed/123/sc0510-1-removebg-preview_grobo.jpg" style="width:30%;"></a>
 
 Το Raspberry Pi είναι ένας μικρός υπολογιστής μονόπλευρης πλακέτας που αναπτύχθηκε από το Raspberry Pi Foundation. Αυτός ο μικρός υπολογιστής προσφέρει μια οικονομική και εύχρηστη λύση για την εκμάθηση προγραμματισμού, των ηλεκτρονικών και των υπολογιστικών δεξιοτήτων.
 
@@ -282,7 +282,7 @@ ___
 
 ___
 
-# ⚛️: **Ενότητα** :two: :<br>
+#  :pushpin: **Ενότητα** :two: :<br>
 # Κατασκευή κουδουνιού <br>
 
 ## Περιγραφή λειτουργίας συστήματος
@@ -300,16 +300,16 @@ ___
 Αυτό καθιστά την εφαρμογή ιδανική για σύνδεση στο κουδούνι του σχολείου, επιτρέποντας τον έλεγχο της αναπαραγωγής των κουδουνιών μέσω μιας εύχρηστης οθόνης αφής.
 
 
-## ΥΛΙΚΟ
+## :hammer: ΥΛΙΚΟ
 
-## :wrench: Εκτύπωση κομματιών στον 3d εκτυπωτή
+## Εκτύπωση κομματιών στον 3d εκτυπωτή
  <a href="https://www.printables.com/model/1062445-raspberry-pi-touch-display-2-stand/files">
          Raspberry pi stand 3d Parts
  </a>
 
 </Br>
 
-## :nut_and_bolt: Σχέδιο Σύνδεσης
+## Σχέδιο Σύνδεσης
 
 <img src="https://github.com/talos-robotics/Kodon-melodikos/blob/main/images/connect1.png" style="width:60%;">
 
@@ -356,9 +356,9 @@ ___
  </div>
 
 
-# ⚛️: **Ενότητα** :three: :<br>
+# :pushpin: **Ενότητα** :three: :<br>
 
-# ΛΟΓΙΣΜΙΚΟ
+# :floppy_disk: ΛΟΓΙΣΜΙΚΟ
 
 ## Διάγραμμα ροής
 
@@ -597,7 +597,7 @@ root.mainloop()  # Εκκίνηση του GUI
   <div>
 
 
-# ⚛️: **Ενότητα** :four: :<br>
+# :pushpin: **Ενότητα** :four: :<br>
 
 
 ## :warning: Τι να προσέξω - Αστοχίες και λάθη
@@ -619,7 +619,7 @@ root.mainloop()  # Εκκίνηση του GUI
 </div>
 
 
-# ⚛️: **Ενότητα** :five: :<br>
+# :pushpin: **Ενότητα** :five: :<br>
 
 # Παρουσίαση
 
