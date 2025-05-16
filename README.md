@@ -639,6 +639,7 @@ root.mainloop()  # Εκκίνηση του GUI
  
 
 <div>
+--->
 
 # :camera: Φωτογραφικό υλικό
 
@@ -646,16 +647,16 @@ root.mainloop()  # Εκκίνηση του GUI
 
 |||||
 |---|---|---|---|
-|<img src="photos/constract/8.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/9.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/10.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/11.jpg" alt="" style="width: 100%;"/>|
-|<img src="photos/constract/12.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/13.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/14.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/15.jpg" alt="" style="width: 100%;"/>|
-|<img src="photos/constract/16.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/17.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/18.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/54.jpg" alt="" style="width: 100%;"/>|
-|<img src="photos/constract/19.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/53.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/55.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/56.jpg" alt="" style="width: 100%;"/>|
-|<img src="photos/constract/57.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/58.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/59.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/60.jpg" alt="" style="width: 100%;"/>|
-|<img src="photos/constract/61.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/62.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/.jpg" alt="" style="width: 100%;"/>|
+|<img src="/images/1_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/2_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/3_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/4_r.jpg" alt="" style="width: 100%;"/>|
+|<img src="/images/5_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/6_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/7_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/8_r.jpg" alt="" style="width: 100%;"/>|
+|<img src="/images/9_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/10_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/11_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/12_r.jpg" alt="" style="width: 100%;"/>|
+|<img src="/images/13_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/14_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/15_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/16_r.jpg" alt="" style="width: 100%;"/>|
+|<img src="/images/17_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/18_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/19_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/20_r.jpg" alt="" style="width: 100%;"/>|
+|<img src="/images/21_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/22_r.jpg" alt="" style="width: 100%;"/>|<img src="/images/23_r.jpg" alt="" style="width: 100%;"/>|<img src="photos/constract/.jpg" alt="" style="width: 100%;"/>|
 |||||  
 
  
---->
+
 
 # :pray: ΕΥΧΑΡΙΣΤΙΕΣ
 
