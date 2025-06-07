@@ -629,17 +629,17 @@ root.mainloop()  # Εκκίνηση του GUI
 
 # Παρουσίαση
 
-<!--
+
   
 # :movie_camera: Βίντεο παρουσίαση
 
-<a href="https://youtu.be/uG-WTTZHTPA">
-         <img src="https://img.youtube.com/vi/uG-WTTZHTPA/0.jpg" style="width:60%;">
+<a href="https://youtu.be/96fAc8_q3Tg">
+         <img src="https://img.youtube.com/vi/96fAc8_q3Tg/0.jpg" style="width:60%;">
 </a>
  
 
 <div>
---->
+
 
 # :camera: Φωτογραφικό υλικό
 
